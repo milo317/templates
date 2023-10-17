@@ -1,0 +1,162 @@
+/*  
+Theme Name: printCSS
+Theme URI: http://3oneseven.com/
+Description: Specials.
+Version: 3.17
+Author: miloIIIIVII
+Author URI: http://3oneseven.com/
+
+NOTE: Sole property of GunGurus www.gungurus.com and 3oneseven.com. 
+NO copying, "inspiration" or any other form of use allowed.
+Protected under copyright laws of the EU.
+eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31992L0100:EN:HTML
+*/
+
+
+/* ----------------------------------- reset.css */ 
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+*{margin:0;padding:0;}
+
+body{background:#fff url(images/gg.jpg) top center no-repeat;
+color:#72370F;font:normal 15px/20px Arial,Tahoma,Helvetica,Sans-Serif;margin:0;padding:0;}
+
+/* ----------------------------------- wrap */
+#wrap{background:transparent url(images/gg.gif) 0 0 no-repeat;color:#333;font:normal 15px/20px Arial,Tahoma,Helvetica,Sans-Serif;
+margin:0 auto;padding:0;width:98%;overflow:hidden;}
+#content{width:100%;margin:0 auto;padding:0;background:transparent;overflow:auto;}
+#row{clear:both;margin:0 auto;padding:0;width:941px;height:220px;background:transparent url(images/gg.gif) 0 0 repeat-x;}
+#sow{clear:both;margin:40px auto 0;padding:0;width:941px;height:39px;background:transparent url(images/gg.gif) 0 0 no-repeat;}
+
+/* ----------------------------------- links */
+a,a:visited{color:#8A753F;text-decoration:none;}
+a:hover{text-decoration:underline;color:#333;}
+a img{border:none;}
+
+/* ----------------------------------- header */
+#header{clear:both;background:transparent;width:100%;height:145px;margin:4px auto 0;padding:0;position:relative;}
+#logo{background:transparent no-repeat;width:99%;height:90px;margin: 0;padding:0;overflow:hidden;display:inline-block;}
+#logo h1,#logo h1 a{height:90px;width:99%;text-indent:-9000px;margin:0;padding:0;}
+#logo h1 a:hover{background:transparent;}
+.description{display:none;}
+
+/* ---------------------------------- navi */
+#menu,#login{display:none;}
+	
+/* ----------------------------------- front */
+#news{width:100%;background:transparent url(images/gg.gif) 0 0 no-repeat;padding:0;margin:0 auto;
+position:relative;}
+#news h3{color:#816C39;font:normal 32px times new roman, georgia,baskerville;
+text-transform:uppercase;}
+
+.col1,.col2,.col1a,.col2a,.col3{width:99%;margin:0px;padding:0 10px;
+font:13px/18px arial,tahoma;}
+#member,#signup{display:none;}
+
+/* ----------------------------------- slider */
+#item,.contentslide{display:none;}
+
+/* ----------------------------------- h tags */
+h2{color:#333;font:normal 24px times new roman, georgia,baskerville;padding:10px 0;margin:0;
+font-variant:small-caps;}
+h3{color:#333;font:normal 17px times new roman, georgia,baskerville;padding:8px 0;
+margin:0;font-variant:small-caps;}
+
+/* ----------------------------------- columns */
+#middle{width:99%;margin:0;padding:5px 0;}
+
+/* ----------------------------------- bar */
+#sidebar{display:none;}
+
+/* ----------------------------------- lists */
+#content p ol,#content p ul{margin:12px 0;padding:10px 0;}
+blockquote{margin:25px 0;padding:0 25px 0 10px;font-style:italic;color:#333;border-left:7px double #8A753F;font:16px century gothic,tahoma;}
+#content blockquote p{margin:20px 0;padding:0;}
+
+/* ----------------------------------- date */
+.date{font-size:11px;text-align:right;float:right;margin:-42px 0 0 0;padding:0;}
+.date span.date{color:#333;padding:0 2px 0 4px;}
+.bigdate{font:normal 25px times new roman, georgia,baskerville;color:#333;text-decoration:none!important;}
+
+.entry{clear:both;margin:6px 0;padding:5px 0;}
+.entry p imgs{float:left;border:none;margin:5px;max-width:80%;}
+.green{color:#094426;text-decoration:none;font-style:italic;}
+
+/* ----------------------------------- lists */
+#content p{padding:0;margin:0;}
+#content ul{list-style:disc;margin:0;padding:12px 0;list-style-position:inside;}
+#content ul ul{list-style:circle;margin:0;padding:12px 0;list-style-position:inside;}
+#content ul li{margin:0;padding:5px 0 0 15px;}
+#content ul li a{color:#8A753F;text-decoration:none;}
+#content ul li a:hover{color:#000;text-decoration:underline}
+#content ol{margin:0;padding:12px 0;}
+#content ol li{margin:0;padding:5px 0 0 9px;list-style-type:upper-roman;}
+
+#content img.wp-smiley{float:none;border:none;padding:0;margin:0;}
+#content img.wp-wink{float:none;border:none;padding:0;margin:0;}
+
+.postspace{clear:both;background:transparent;width:99%;height:32px;margin:0;padding:0;}
+
+/* ----------------------------------- footer */
+#footer{clear:both;background:transparent url(images/gg.gif) 0 0 no-repeat;width:100%;margin:0 auto;padding:0;}
+.inner{background:transparent;width:100%;margin:0 auto;padding:0;}
+.creditl{background:transparent;width:45%;margin:60px 0 0 0;padding:0 0 0 20px;
+font:normal 16px times new roman, georgia,baskerville;color:#8A753F;float:left;font-variant:small-caps;}
+.creditr{display:none;}
+.credits{clear:both;background:transparent;width:100%;margin:0 auto;padding:20px 0;text-align:center;
+font:normal 13px  times new roman, georgia,baskerville;color:#666;font-variant:small-caps;}
+.credits a{color:#666;}.creditl a{color:#8A753F;}
+.creditr a{height:90px;width:276px;text-indent:-9000px;margin:0;padding:0;float:right;}
+
+/* ----------------------------------- search */
+#search{display:none;}
+
+/* ----------------------------------- comments */
+#comments{display:none;}
+
+hr.clear{clear:both;visibility:hidden;margin:0;padding:0;}
+
+/* ----------------------------------- floats */
+.center,.aligncenter{text-align:center;display:block;margin:0 auto;padding:5px;}
+.alignleft,.left{float:left;margin-right:10px;margin-bottom:5px;}
+.alignright,.right{float:right;margin-left:10px;margin-bottom:5px;}
+
+.navigation{color:#333;font:normal 17px century gothic,Verdana,Arial,Sans-Serif;padding:8px 0;
+margin:12px 0;font-variant:small-caps;clear:both;}
+
+/* ----------------------------------- wordpress */
+.cat{margin:16px 0;padding:5px;background:#fafafa;display:block;}
+.time{float:right;font:1.5em  times new roman, georgia,baskerville;line-height:100%;margin:-30px 0 0 0;padding:2px 0 0 0;width:34px;height:40px;text-align:center;background:transparent url(images/) 0 0 no-repeat;}
+.time a{cursor: help;color:#72370F;}
+.back{float:right;margin:-40px 0 0 0;padding:0;width:121px;height:32px;background:transparent;}
+.drop{float: left;font: 2.5em  times new roman, georgia,baskerville;line-height:100%;margin:3px 8px 0 0;width:30px;text-align:center;}
+.acronym, abbr, span.caps{ font-size: 0.9em;letter-spacing: .07em;}
+.acronym, abbr, span.caps {cursor: help;}
+.acronym, abbr {border-bottom: 1px dashed #094426;}
+
+table{width:100%;background:#fafafa;border:1px solid #ccc;color:#333;margin:12px 0;}
+caption{font-size:.8em;font-style: italic;text-align:right;color:#666;}
+td{padding:.3em;border:1px solid #ccc;}
+tr{color:#333;background:#fafafa;}
+tr.alt,tr.even{background:#ccc;}
+th{padding:.3em;color:#000;background:#fafafa;border:1px solid #ccc;}
+td a,th a{font-weight:bold;color:#094426;}
+
+dl{margin:12px 0;border-bottom:1px solid #ccc;padding:0.5em 0;}
+dt{display:inline;margin:9px 0;padding:0;color:#333;font-style:italic;}
+dd{display:block;margin:7px 0;padding:0;}
+dd a{color:#094426;}
+dd a:hover{color:#333;}
+
+code{padding:0 3px;margin:12px 0;background:#fafafa;}
+pre{overflow:auto;padding:9px;background:#fafafa;border:1px solid #ccc;}
+pre code{padding:0;background:transparent;}
+
+.wp-caption{padding:6px 1px 0 1px;background:#fafafa;text-align:center;}
+.wp-caption .wp-caption-text{margin:0;padding:0 5px;text-align:right;font-size:.8em;
+color:#666;}
+.wp-caption img{margin:0 auto;padding:0;border:1px solid #666;}
+.gallery{display:block;text-align:center;margin:18px 0;}
+.gallery img{border:1px solid #ccc;}
+
+/* ----------------------------------- forms */
+.cform {display:none;}

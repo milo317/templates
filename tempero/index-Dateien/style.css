@@ -1,0 +1,284 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+table{border-collapse:collapse;border-spacing:0;}
+q:before,q:after,blockquote:before,blockquote:after{content: "";}
+
+/* ----------------------------------- main */ 
+body{background:#fff;color:#837B6D;font:normal 15px/20px trebuchet ms,arial,tahoma,verdana,sans-serif;margin:0;padding:0;}
+
+/* ----------------------------------- wrapper */ 
+#wrapper{background:transparent;width:100%;margin:0;padding:0;}
+.wrap{background:transparent;width:95%;margin:0 auto;padding:0;overflow:hidden;}
+#main{width:100%;margin:0 auto;padding:0;background:#fff;}
+#sow{clear:both;width:100%;margin:0;padding:0;display:block;background:transparent;}
+#smain,#content{width:100%;margin:10px auto 0;padding:10px 0;background:#fff;display:block;border-top:2px solid #ccc;}
+.single #smain{border-bottom:2px solid #ccc;display:block;overflow:auto;}
+
+/* ----------------------------------- usual suspects */
+a,a:visited{color:#A2C400;text-decoration:none;}	
+a:hover{text-decoration:none;color:#333;}	
+
+/* ----------------------------------- header */
+#header{width:100%;height:140px;background:#fff url(01.jpg) no-repeat -3px 20px;margin:10px auto;padding:0;overflow:hidden;border-top:2px solid #ccc;}
+.titles{background:transparent;width:306px;height:140px;margin:0;padding:0;float:left;display:inline-block;}
+.titles h1,.titles h1 a{margin:0;padding:0;outline:none;text-indent:-99999px;width:306px;height:140px;display:block;}
+.c_info{display:block;margin:-4px 0 5px 0;padding:0;outline:none;color:#666;font:normal 11px arial,verdana,arial black;text-transform:none;letter-spacing:1px;}
+.titles .c_info{margin:0;padding:0;text-indent:-99999px;width:300px;height:1px;display:block;}
+.head{background:transparent;width:65%;height:140px;margin:0;padding:0;float:right;display:inline-block;}
+
+/* ----------------------------------- navi */
+.navbar{background:transparent;display:block;font:normal 19px 'Oxygen',trebuchet ms,helvetica,arial;width:550px;clear:both;margin:5px 0 0 0;padding:0;float:right;text-transform:lowercase;}
+
+#nav ul {float:right !important;list-style: none;margin: 0;padding: 0;}
+#nav li {float:left;list-style: none;margin: 0;padding: 0;}
+#nav ul li {list-style: none;margin: 0 0 0 -1px;padding: 0;}
+#nav li a{color:#968D7F;display: block;margin: 0;padding: 4px 10px;border-right: 0;text-decoration: none;border-top:1px solid #fff;}
+#nav li a:hover {background:#fff;color: #A2C400;display: block;margin: 0;padding: 4px 10px;text-decoration: none;border-top:1px solid #A2C400;}
+#nav li li a, #nav li li a:link, #nav li li a:visited {background: #fff;width: 170px;color: #000;border-bottom:1px solid #ccc;float: none;margin: 0;padding: 4px 10px;text-decoration:none;}
+#nav li li a:hover {background: #ccc;color: #000;padding: 4px 10px;}
+#nav li ul {z-index: 9999;position: absolute;left: -999em;height: auto;width: 190px;margin: 0;padding: 0;-moz-box-shadow:0px 3px 5px #555;-webkit-box-shadow:0px 3px 5px #555;box-shadow:0px 3px 5px #555;}
+#nav li li {}
+#nav li ul a { width: 160px;}
+#nav li ul a:hover, #nav li ul a:active { }
+#nav li ul ul {margin:-33px 0 0 192px;}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {left: -999em;}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {left: auto;}
+#nav li:hover, #nav li.sfhover { position: static;}
+#nav .current_page_item a,#nav li a:active {background:#fff;color: #A2C400;display: block;margin: 0;padding:4px 10px;text-decoration: none;border-top:1px solid #A2C400;}
+
+/* ----------------------------------- navi */
+.langbar{background:transparent url(02.jpg) no-repeat 0 0;color:#676058;text-shadow:#fff 0px 1px 1px;display:block;font:normal 16px trebuchet ms,arial;letter-spacing:1px;text-transform:lowercase;width:360px;height:45px;margin:38px 0 0 0;padding:0;float:right;}
+.langbar p{background:transparent;margin:0;padding:0 0 0 5px;}
+.langbar .links{background:transparent;display:inline-block;width:153px;height:41px;float:left;}
+.langbar .links a{background:transparent;display:inline-block;float:left;margin:0 5px 0 0;padding:0;}
+.langbar a{color:#676058;text-decoration: none;text-shadow:#fff 0px 1px 1px;}
+.langbar a:hover{color: #333;}
+
+/* ----------------------------------- search */
+#searchdiv {margin: 0;padding: 0;}
+#searchform {margin:5px 0;padding:0;}
+#searchbox {background:transparent;width: 210px;color: #ccc;font: 12px Arial, Tahoma, Verdana;padding: 5px;margin: 0;border: 1px solid #A2C400;}
+#searchbutton {background:transparent;color: #ccc;font: 12px Arial, Tahoma, Verdana;padding: 4px;margin: 0;border: 1px solid #A2C400;}	
+
+/* ----------------------------------- slider */
+#slider1{background:transparent;padding:0;margin:0;width:100%;height:241px;position:relative;z-index:10;border-top:2px solid #ccc;border-bottom:2px solid #ccc;}
+#sl{background:transparent;width:92%;margin:0 auto;padding:0;overflow:hidden;}
+.slideimg img{display:block;padding:0;margin:0 auto;text-align:center;width:100%;height:auto;} 
+.slideimg{width:100%;display:block;padding:0;z-index:1;}
+.slidetxt{width:40%;display:inline-block;overflow:hidden;padding:10px 10px 10px 0;margin:0;position:absolute;top:30px;border-bottom:2px solid #ccc;border-top:2px solid #ccc;left:0%;background:#fff;z-index:2 !important;text-shadow:#fff 0 1px 1px;}
+.slidetxt h2 a{color:#676058 !important;font:normal 30px 'Oxygen',helvetica,arial,tahoma;letter-spacing:-2px;}
+.slidetxt h2 a:hover{text-decoration:none;color:#A2C400 !important;}
+
+/* ----------------------------------- second block */
+.row,.postmeta{clear:both;background:transparent;width:100%;margin:0;padding:15px 0;overflow:hidden;display:block;}
+.entry{clear:both;background:transparent;width:100%;margin:8px 0;padding:5px 0;overflow:hidden;display:block;text-align:justify;}
+.entry p{margin:8px 0;padding:5px 0;text-align:justify;}
+
+.bolism,.meta,#ad{margin:0;overflow:hidden;padding:4px 0;background:transparent;font-size:12px;border-bottom:2px solid #ccc;border-top:2px solid #ccc;}
+.rel{width:40%;float:left;margin:0;overflow:hidden;padding:9px 0;background:transparent;}
+.social{width:40%;float:right;margin:0;overflow:hidden;padding:9px 0;background:transparent;}
+.cw{margin:0;overflow:hidden;padding:4px 0;background:transparent;border-top:2px solid #ccc;}
+
+.row .rcol,.row .rcol1,.row .rcol3{background:#fff;}
+.rcol{width:30%;float:left;margin:0;overflow:hidden;padding:10px 0 20px 0;}
+.rcol1{width:30%;float:left;margin-left:3%;overflow:hidden;padding:10px 0 20px 0;}
+.rcol3{width:30%;float:right;margin:0;overflow:hidden;padding:10px 0 20px 0;}
+.rcol p,.rcol1 p,.rcol3 p{padding:0;margin:0;}
+
+.col{width:30%;float:left;margin:0;overflow:hidden;padding:0;background:#fff;}
+.col1{width:30%;float:left;margin-left:3%;overflow:hidden;padding:0;background:#fff;}
+.col3{width:30%;float:right;margin:0;overflow:hidden;padding:0;background:#fff;}
+.col33{width:30%;float:right;margin:0;overflow:hidden;padding:0;background:#fff;}
+.col:hover,.col1:hover,.col3:hover,.col33:hover{background:#fafafa;}
+.col p,.col1 p,.col3 p,.col33 p{padding:0;margin:0;}
+
+/* ----------------------------------- titles */
+h2 a:hover{color:#333;text-decoration:none;}	
+h1,h1 a,h2,h2 a{color:#676058;font:700 30px/90% 'Oxygen',helvetica,arial,tahoma;letter-spacing:-1px;text-shadow:#fff 0 1px 1px;padding:10px 0;margin:5px 0;border:0;}
+h3,h3 a{color:#676058;font:normal 19px 'Oxygen',helvetica,arial,tahoma;letter-spacing:-1px;text-shadow:#fff 0 1px 1px;padding:10px 0;margin:0;border:0;}
+h3 span{font:normal 19px 'Oxygen',helvetica,arial,tahoma;letter-spacing:-1px;text-shadow:#fff 0 1px 1px;color:#676058;letter-spacing:1px;}
+h4{color:#3B3B3D;font:normal 18px 'Oxygen',helvetica,arial,tahoma;letter-spacing:-1px;text-shadow:#fff 0 1px 1px;padding:5px 0;margin:0;border:0;}
+#footer h2{color:#A2C400;font:700 24px 'Oxygen',helvetica,arial,tahoma;letter-spacing:-1px;text-shadow:#fff 0 1px 1px;padding:10px 0;margin:0;border:0;}
+.row h2 a span{color:#A2C400;display:block;width:100%;font:700 30px/50% 'Oxygen',helvetica,arial,tahoma !important;margin:0 !important;padding:0 !important;letter-spacing:-1px;}
+.rows h2 a{font:700 30px/70% 'Oxygen',helvetica,arial,tahoma !important;color:#676058;margin:0 !important;padding:0 !important;letter-spacing:-1px;}
+
+/* ----------------------------------- button */
+.read{clear:both;font:700 14px 'Oxygen',arial,verdana;display:block;text-transform:lowercase;background:transparent url(b2.png) no-repeat 100% 4px;display:block;margin:2px 0;padding:3px 0;width:70px;border:1px solid #fff;}
+.fmore{clear:both;font:700 14px 'Oxygen',arial,verdana;display:block;text-transform:lowercase;background:transparent url(b1.png) no-repeat 100% 4px;display:block;margin:2px 0;padding:3px 0;width:70px;border:1px solid #fff;}
+.fmore a{color:#676058;}.fmore a:hover{color:#A2C400;}
+.read:hover{color:#A2C400;border: 1px solid #fafafa;background:#fff url(b1.png) no-repeat 100% 4px;}
+.fmore:hover{color:#A2C400;border: 1px solid #fafafa;background:#fff url(b2.png) no-repeat 100% 4px;}
+.cread{font:14px arial,verdana;display:block;clear:right;float:right;text-transform:lowercase;background:transparent url(b2.png) no-repeat 100% 4px;display:block;margin:5px 0;padding:3px 0;width:70px;border:1px solid #fff;}
+.cread:hover{color:#A2C400;border: 1px solid #fafafa;background:#fff url(b1.png) no-repeat 100% 4px;}
+
+/* ----------------------------------- twitter */
+.now{clear:both;width:100%;background:#fff;padding:20px 0;margin:0 auto;overflow:hidden;border-bottom:2px solid #ccc;border-top:2px solid #ccc;}
+.now h2{display:inline-block;float:left;width:30%;padding:10px 0 0 0;margin:0 3% 0 0;}
+.twt{background:transparent url(twt.jpg) 0 0px no-repeat;padding:0;margin:0;color:#8CBD00;text-shadow:#fafafa 0px 1px 1px;float:right;width:67%;height:55px;font-size:14px;}
+.twt p,.twt .widget{background:transparent;padding:10px 0 0 60px !important;margin:0 !important;}
+
+/* ----------------------------------- more */
+#main p{padding:10px 0;margin:4px 0;}
+.postspace{margin:20px 0;padding:0;height:30px;}
+.cleft,#contentmiddle2{padding:10px 0;margin:6px 0;float:left;width:67%;display:inline-block;overflow:hidden;}
+.cright{padding:10px 0;margin:20px 0;float:right;width:28%;display:inline-block;overflow:hidden;}
+.cmain{padding:10px 0;margin:6px 0;float:left;width:99%;display:block;overflow:hidden;}
+.cat{margin:6px 0;padding:4px 0;background:#fafafa;display:block;font-size:12px;border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+
+/* ----------------------------------- floats */
+.center,.aligncenter{text-align:center;display:block;margin:0 auto;padding:7px;}
+.alignleft,.left{float:left;margin-right:10px;margin-bottom:5px;}
+.alignright,.right{float:right;margin-left:10px;margin-bottom:5px;}
+
+/* ----------------------------------- clears */
+.clear{clear:both;}hr.clear{clear:both;visibility:hidden;margin:0;padding:0;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;} 
+.clearfix{display:inline;}* html .clearfix{height:1%;}.clearfix{display:block;}
+
+/* ----------------------------------- comments */
+#comments{clear:both;width:100%;padding:12px 0;margin:4px 0;}
+#comments h3,h3#respond{color:#555;margin:7px 0;}
+
+ol.commentslist{margin:5px 0;list-style-type:upper-roman;}
+ol.commentslist li{margin:5px 0;list-style-type:upper-roman;}
+.commentslist li{background:transparent;border:1px solid #ccc;margin:7px 0;padding:7px 0;}
+.commentslist li a{font-family:georgia;}
+.commentslist li.alt{background:#f1f1f1;border:1px solid #666;}
+.commentslist li:hover{border-color:#888;}
+.commentslist .comment_text{margin:0;line-height:1.4em;overflow:hidden;}
+.comment_text p,.comment_text ul,.comment_text ol,.comment_text blockquote{margin:1em 0;padding:0 0 0 10px;float:left;width:80%;}
+.comment_text ul,.comment_text ol,.comment_text blockquote{margin:0 1em;}
+
+.comment-date{width:60px;float:right;padding:0 0 0 20px;margin:0;height:70px;display:inline-block;}
+p.author_meta{font-weight:700;margin:0 0 0 7px;padding:0 20px;width:80%;}
+p.post_meta{font-size:11px;text-align:right;margin:0 7px 0 0;}
+.count{float:right;display:block;width:53px;height:53px;font:53px georgia;color:#ccc;line-height:53px;}
+
+.commentslist li.author{background:transparent;color:#666;}
+.commentslist li.author a{color:#ddd;}
+.commentslist li.author a:hover{color:#333;}
+#comments_closed{background:#fafafa;color:#A2C400;padding:7px 0;margin:12px 0;line-height:1.5em;}
+p.nocomments{margin:0 12px 0 7px;}
+p.nocomments a{color:#ddd;font-family:georgia;text-decoration:underline;}
+p.nocomments a:hover{color:#ccc;}
+ol.pingslist{margin:1.5em 2em;font-size:12px;}
+.pingslist li{color:#7F7F7F;margin:0 0 7px 0;}
+.pingslist li a{font-family:georgia;}
+#commentform p{margin:1em 0;}
+#commentform p a{font-family:georgia;}
+#author,#email,#url,#comment,.comment{font:1.1em arial,helvetica,verdana,sans-serif;padding:2px;-moz-box-shadow:0px 3px 3px #333;-webkit-box-shadow:0px 3px 3px #333;box-shadow:0px 3px 3px #333;border:1px solid #ccc;}
+.comment{width:90% !important;}
+#comment{width:99%;overflow:hidden;}
+#commentform p small{font-size:10px;color:#7F7F7F;}
+.commentslist code{background:transparent;}
+#commentform textarea{width:99%;height:255px;padding:2px 0;margin-top:3px;color:#000;background:#fff;-moz-box-shadow:0px 3px 5px #000;-webkit-box-shadow:0px 3px 3px #333;box-shadow:0px 3px 3px #333;border:1px solid #ccc;}
+#commentform #submit,#searchsubmit{background:transparent;font:normal 18px trebuchet ms,arial;color:#333;width:200px;height:22px;cursor:pointer;text-transform:none;-moz-box-shadow:0px 3px 3px #333;-webkit-box-shadow:0px 3px 3px #333;box-shadow:0px 3px 3px #333;border:1px solid #ccc;}
+#commentform #submit:hover,#searchsubmit:hover{color:#ccc;-moz-box-shadow:0px 3px 3px #ccc;-webkit-box-shadow:0px 3px 3px #ccc;box-shadow:0px 3px 3px #ccc;border:1px solid #ccc;}
+
+/* ----------------------------------- basics */
+table{width:100%;background:#fff;border:1px solid #ccc;color:#666;margin:12px 0;}
+caption{font-size:.8em;font-style: italic;text-align:right;color:#666;}
+td{padding:.3em;border:1px solid #ccc;color:#666;}
+tr{color:#666;background:#fff;border:1px solid #666;}
+tr.alt,tr.even{background:#fafafa;}
+th{padding:.3em;color:#666;background:#fff;border:1px solid #ccc;}
+td a,th a{font-weight:bold;}
+
+dl{margin:12px 0;border-bottom:1px solid #fff;padding:0.5em 0;}
+dt{display:inline;margin:9px 0;padding:0;color:#666;font-style:italic;}
+dd{display:block;margin:7px 0;padding:0;}
+
+code{padding:0 3px;margin:12px 0;background:#ccc;}
+pre{overflow:auto;padding:9px;background:#ccc;border:1px solid #ccc;}
+pre code{padding:0;background:transparent;}
+
+.wp-caption{padding:6px 1px 0 1px;background:#3D3D3D;text-align:center;}
+.wp-caption .wp-caption-text{margin:0;padding:0 5px;text-align:right;font-size:.8em;color:#ccc;}
+.wp-caption img{margin:0 auto;padding:0;border:1px solid #666;}
+.gallery{display:block;text-align:center;margin:18px 0;}
+.gallery img{border:1px solid #555;}
+
+/* ---------------------------------- user */
+.cats li{float:left;list-style:none;}
+.cats li{float:left;list-style:none;margin:0 1% 0 0;padding:2px 0;width:45%;border-top:1px solid #ccc;}
+
+/* ----------------------------------- list styles */
+.entry ol{list-style-type:upper-roman;list-style-position: inside;margin:15px 0;padding:0 0 0 15px;border-bottom:1px solid #ccc;}
+.entry ol li{margin:0;padding:2px 0 2px 20px;border-top:1px solid #ccc;list-style-type:upper-roman;}
+.entry ol li a,.entry ol li a:visited{color:#333;text-decoration:none;}
+.entry ol li a:hover{color:#ccc;text-decoration:none;}
+
+.entry ul,.rel ul,.book ul{list-style:none;margin:15px 0;padding:0 0 0 15px;}
+.entry ul li,.rel ul li,.book ul li{margin:0;padding:5px 0 2px 24px;background:url(com.gif) no-repeat left center;}
+.entry ul li a,.entry ul li a:visited,.rel ul li a,.book ul li a,.entry ul li a:visited a:hover,.rel ul li a:hover,.book ul li a:hover{text-decoration:none;}
+
+.social ul{list-style:none;margin:15px 0;padding:0 0 0 15px;}
+.social ul li{margin:0;padding:0 0 2px 20px;}
+.social ul li img{margin:0 10px 0 0;padding:0;}
+.social ul li a,..social ul li a:hover{text-decoration:none;margin:-3px 0 0 0;padding:0;}
+
+.entry a img,.entry img{-moz-box-shadow:0px 3px 3px #666;-webkit-box-shadow:0px 3px 3px #666;box-shadow:0px 3px 3px #666;border:1px solid #3D3D3D;max-width:99%;}
+.entry a img:hover,.entry img:hover{border:1px solid #666;}
+.cl{display:inline-block;overflow:hidden;background:#fff;float:left;width:200px;height:160px;margin:0 16px 6px 0;padding:0;border:1px solid #fafafa;}
+.cl a img{display:block;margin:0 auto;overflow:hidden;background:transparent;border:0 !important;-webkit-box-shadow:0px 0px 0px #666 !important;box-shadow:0px 0px 0px #666 !important;}
+
+/* ---------------------------------- top slider */
+#toppanel {position: absolute;top:10px;left:2.5%;width:95%;z-index:999;text-align:center;margin:0 auto;}
+#panel{width:100%;height:300px;color:#333;text-shadow:#fff 0px 1px 1px;background:#fff;overflow: hidden;position: relative;z-index:3;border-bottom:2px solid #ccc;border-top:2px solid #ccc;display:none;}
+#panel h3 {padding: 5px 0;margin: 0;color:#000;text-align: left;}
+#panel h2{color:#000;text-align: left;}
+#panel p {margin: 5px 0;padding: 0;}
+#panel a {text-decoration: none;color: #A2C400;}
+#panel a:hover {color:#666;}
+#panel a-lost-pwd {display: block;float: left;}
+#panel ul {margin: 0 0 5px 0;padding: 0;line-height: 1.6em;list-style: none;}
+#panel .content {width:100%;margin: 0 auto;padding-top: 15px;text-align: left;font-size: 0.85em;}
+#panel .content .tleft{width:45%;float: left;margin-bottom: 25px;padding:0 15px;border-right: 2px solid #ccc;min-height: 280px;}
+#panel .content .tright{width:45%;float: right;margin-bottom: 25px;padding:0 15px;min-height: 280px;}
+#panel .content form {margin: 0 0 10px 0;}
+#panel .content label {float: left;padding-top: 8px;clear: both;width: 280px;display: block;}
+#panel .content input.field {border: 1px #ccc solid;background:#fff;margin-right: 5px;margin-top: 4px;width: 200px;color:#000;height: 16px;}
+#panel .content input:focus.field {background: #fff}
+
+/* ---------------------------------- login */
+#panel .content input.bt_login,#panel .content input.bt_register{display: block;float: left;clear: left;height: 24px;text-align: center;cursor: pointer;border: none;font-weight: bold;margin: 10px 0;}
+#panel .content input.bt_login {width: 74px;background: transparent ;}
+#panel .content input.bt_register {width: 94px;color: white;background: transparent ;}
+#panel .lost-pwd {display: block;float:left;clear: right;padding: 15px 5px 0;font-size: 0.95em;text-decoration: underline;}
+#panel h2 a#close .close{background:transparent ;}
+
+/* ----------------------------------- footer */
+#footer{clear:both;background:#fff;width:100%;color:#666;margin:40px 0 0 0;padding:0 0 100px 0;text-shadow:#fff 0px 1px 1px;}
+#footer .inner{text-align:left;padding:9px 0;margin:0 auto;width:100%;background:transparent;}
+
+/* ----------------------------------- first footer */
+#footer .credit{height:150px;clear:both;margin:0;display:block;padding:0;background:transparent url(01.jpg) no-repeat -3px 20px;text-shadow:#fff 0px 1px 1px;border-top:2px solid #ccc;border-bottom:2px solid #ccc;}
+#footer .copy{width:92%;clear:both;margin:0 auto;text-align:center;display:block;padding:20px 0 0 0;font:10px arial,trebuchet ms;background:transparent;color:#666;text-shadow:#fff 0px 1px 1px;}
+.copy a{color:#666;}
+
+#footer .credit .head ul{float:right;list-style: none;margin: 0;padding:88px 0 0 0;width:420px;font:normal 19px trebuchet ms,helvetica,arial;text-transform:lowercase;}
+#footer .credit .head li {float: left;list-style: none;margin: 0;padding: 0;}
+#footer .credit .head ul li {list-style: none;margin: 0;padding: 0;}
+#footer .credit .head li a{color: #968D7F;display: block;margin: 0;padding:6px 10px 6px 0;border-right: 0;text-decoration: none;text-shadow:#fff 0px 1px 1px;}
+#footer .credit .head li a:hover{color: #A2C400;}
+
+/* ----------------------------------- themes */
+#footer .fcol7,#footer .fcol77,#footer .fcol777{font-size:80%;}
+small{margin:0;padding:0;font-size:10px;}
+strong{font-weight:700;}
+em{font-style:italic;}
+.fcol7{width:23%;height:215px;float:left;margin:0 2.0% 0 0;overflow:hidden;padding:0;background:transparent;}
+.fcol777{width:23%;height:215px;float:right;margin:0;overflow:hidden;padding:0;background:transparent;}
+
+@media only screen and (max-width: 850px),(min-device-width: 850px) and (max-device-width: 850px){
+#wrap .wrap,.wrap,.head{width:98%;}
+.narrowcolumn,.x-left{padding:0;width:100%;}
+.post {margin:5px 0;padding:20px 0;text-align: left;}
+.slidetxt,.row .rcol, .row .rcol1, .row .rcol3,#footer .fcol7, #footer .fcol77, #footer .fcol777{padding:5px 0;margin:5px 0;clear:both;display:block;width:100%;}
+#header h1,#header h1 a,#footer h1,#footer h1 a{letter-spacing:-1px;font:700 60px 'Alfa Slab One',Georgia,times,helvetica,arial,Verdana,Sans-Serif;margin:40px auto 0;padding:40px 0 0 0;}
+#header h1 a sup,#footer h1 a sup{color:#ccc;letter-spacing:2px;text-transform:uppercase;font:300 16px 'Alfa Slab One',Georgia,times,helvetica,arial,Verdana,Sans-Serif;margin:-90px auto 0;padding:0;display:block;text-align:center;}
+.description{top:70px;left:0;height:30px;overflow:hidden;width:100%;}
+.navbar{width:100%;position:absolute;top:-10px;left:0; font: 16px "Oxygen",trebuchet ms,helvetica,arial;}
+.langbar{display:none;}
+#header {position:relative;}
+#shopp .gallery,.shopp_grid-3 .products .product{padding:10px 0 !important;width:98% !important;height:auto !important;}
+}   

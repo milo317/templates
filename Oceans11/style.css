@@ -1,0 +1,302 @@
+/*  
+Theme Name: Oceans11
+Theme URI: http://3oneseven.com/themes/
+Description: Oceans11
+Author: milo
+Author URI: http://3oneseven.com/
+Version: 3.17.47
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+*{margin:0;padding:0;}
+
+body{background:#000;color:#333;font:100 15px/20px 'Open Sans',Arial,Tahoma,Helvetica,Sans-Serif;margin:0;padding:0;}
+
+/* ----------------------------------- wrap */
+#wrapper{background:transparent;margin:0 auto;padding:0;width:980px;overflow:auto;}
+.wrappers{background:transparent url(images/VIP-Rakebacks.png) 0 -11px no-repeat;margin:0 auto;padding:0;width:980px;overflow:hidden;}
+#rapper{background:transparent;margin:0;padding:0;width:100%;overflow:hidden;}
+#wrap{background:transparent;color:#fff;font:normal 15px/20px Arial,Tahoma,Helvetica,Sans-Serif;margin:0 auto;padding:0;width:980px;overflow:hidden;}
+.inner{background:transparent;color:#333;font:normal 15px/20px Arial,Tahoma,Helvetica,Sans-Serif;margin:0 auto;padding:0;width:980px;overflow:hidden;}
+
+#rap{background:transparent url() top center no-repeat;margin:0;padding:0;width:100%;overflow:auto;}
+#set{background:transparent;margin:0 auto;padding:0;width:980px;overflow:hidden;height:70px;}
+#fet{background:#000 url(images/14.jpg) 0 100% repeat-x;margin:0;padding:0;width:100%;overflow:hidden;height:30px;}
+
+#content{width:980px;margin:0 auto;padding:0;background:transparent;overflow:hidden;}
+#row{clear:both;margin:0;padding:0;width:100%;height:220px;background:transparent url() 0 0 repeat-x;}
+#sow{clear:both;margin:0;padding:30px 0;width:100%;background:#fff url(images/03.jpg) 0 0 repeat-x;overflow:auto;}
+
+/* ----------------------------------- links */
+a,a:visited{color:#EE3225;text-decoration:none;}
+a:hover{text-decoration:underline;color:#666;}
+a img{border:none;}
+
+/* ----------------------------------- header */
+#header{clear:both;background:#000;width:100%;height:75px;margin:0 auto;padding:0;overflow:hidden;position:fixed;top:0;left:0;z-index:99999}
+#logo{background:transparent;width:170px;height:75px;margin:0;padding:0;overflow:hidden;display:inline-block;float:left;}
+#logo h1,#logo h1 a{height:75px;width:170px;text-indent:-9000px;margin:0;padding:0;float:left;display:block;outline:none;}
+#logo h1 a:hover{background:transparent;outline:none;}
+.description{display:none;}
+
+/* ---------------------------------- navi */
+#menu{margin:20px 0 0 0;padding:0;background:transparent;width:65%;height:35px;float:left;display:inline-block;}
+#menu li{display:inline-block;list-style-type:none;float:left;}	
+#menu ul{margin:0;padding:0;}
+#menu ul li a{font:100 16px 'Open Sans',times new roman,baskerville,georgia;color:#EE3225;padding:0 10px 3px 28px;text-transform:uppercase;text-decoration:none;width:88px;height:35px;letter-spacing:-1px;text-align:right;display:inline-block;float:left;}
+#menu ul li.menu_item1{background:transparent url(images/03.png) 0 0 no-repeat;}
+#menu ul li.menu_item2{background:transparent url(images/04.png) 0 0 no-repeat;}
+#menu ul li.menu_item3{background:transparent url(images/05.png) 0 0 no-repeat;}
+#menu ul li.menu_item4{background:transparent url(images/06.png) 0 0 no-repeat;}
+#menu ul li.menu_item5{background:transparent url(images/07.png) 0 0 no-repeat;}
+#menu ul li a span{color:#B09148;font:100 12px arial,tahoma,helvetica;text-align:right;float:right;letter-spacing:-1px;}
+#menu ul li a:hover{color:#fff;padding:0 10px 3px 28px;margin:0;}
+#menu li.current_page_item a{background:transparent;color:#fff;}
+#menu li.current_page_item a:hover{border-top:1px solid #EE3225;text-decoration:none;}
+
+#menu2{margin:41px 0 0 0;padding:0;background:transparent;width:70%;height:35px;float:left;display:inline-block;}
+#menu2 li{display:inline;list-style-type:none;margin:0;padding:0;}	
+#menu2 ul{margin:0;padding:0;}
+#menu2 ul li a{font:normal 16px arial,tahoma,helvetica;color:#B99F62;text-transform:uppercase;padding:0 26px 5px 0;margin:0;text-decoration:none;width:88px;letter-spacing:-1px;background:transparent;}
+#menu2 ul li a:hover{color:#fff;padding:0 26px 5px 0;margin:0;background:transparent;}
+#menu2 li.current_page_item a{background:transparent;color:#fff;}
+#menu2 li.current_page_item a:hover{border-top:1px solid #B99F62;text-decoration:none;}
+
+/* ----------------------------------- slider */
+#item{width:100%;background:transparent;padding:0;margin:62px 0 0 0;display:block;height:440px;overflow:hidden;position:relative;}
+.contentslide{padding:0;width:100%;height:440px;overflow:hidden;color:#fff;background:transparent;}
+.contentslide .opacitylayer{width:100%;height:100%;}
+.contentslide .contentdiv{display:none;}
+
+.slideimg{width:100%;display:block;z-index:1;position:relative;}
+.slidetxt{width:40%;display:inline-block;overflow:hidden;padding:50px 0 0 0;position:absolute;top:0;left:0;background:transparent;z-index:999;}
+.pagination{width:300px;height:33px;padding:0;float:right;font:normal 18px 'Open Sans',georgia,times,Serif;z-index:999;text-align:right;position:absolute;top:390px;right:10%;background:transparent;}
+.pagination a{padding:0 5px;text-decoration:none;color:#EE3225;border:0;}
+.pagination a:hover,.pagination a.selected{color:#B99F62;border:0;}
+
+/* ----------------------------------- slider css */
+.slidetxt{font-family:'Open Sans',times new roman,baskerville,georgia;text-transform:uppercase;}
+.slidetxt span{color:#EE3225;}
+.slidetxt .c1{padding:0 0 10px 0;font-size:34px;color:#fff;}
+.slidetxt .c2{padding:0 0 10px 0;font-size:42px;color:#EE3225;}
+.slidetxt .c3{padding:30px 0 10px 0;font-size:34px;color:#B99F62;}
+.slidetxt .c4{padding:0 0 10px 0;font-size:34px;color:#fff;}
+.slidetxt .c5{padding:20px 0 20px 0;font-size:46px;color:#B99F62;font-weight:600;}
+.slidetxt .c6{padding:0 0 20px 0;font-size:34px;color:#fff;}
+.slidetxt .c2 span{font-size:16px;color:#EE3225;}
+#item .read{clear:left;margin:2px 0 0 0;padding:0;border:0;background:transparent url(images/Rakeback.png) 100% -5px no-repeat;width:300px;height:55px;display:block;}
+#item .read a{display:block;text-align:left;color:#fff}
+
+/* ----------------------------------- front */
+.now{clear:both;width:100%;background:#fff;padding:0;margin:0;overflow:auto;}
+.news,.mews{clear:both;width:980px;background:transparent;padding:0;margin:20px auto;}
+.news h2 a{color:#EE3225;font:normal 19px 'Open Sans',times new roman, georgia,baskerville;height:21px;display:block;overflow:hidden;text-transform:uppercase;margin-top:-12px;padding:0 0 0 45px;}
+.news h3 a{color:#666;font:normal 14px arial;height:16px;display:block;overflow:hidden;padding-left:45px;text-transform:uppercase;margin-top:-17px;}
+.nimg a img{display:block;overflow:hidden;background:transparent;}
+.nimg a:hover img{display:block;overflow:hidden;background:#ccc;}
+
+.col111 h3 a,.col121 h3 a,.col131 h3 a,.col141 h3 a,.col111 h4,.col121 h4,.col131 h4,.col141 h4,
+.col11 h4,.col12 h4,.col13 h4,.col14 h4
+{color:#666;font:normal 14px arial;height:16px;display:block;overflow:hidden;padding-left:45px;text-transform:uppercase;margin-top:-11px;}
+
+.col1,.col111{background:transparent url(images/11.png) 0 12px no-repeat;}
+.col2,.col121{background:transparent url(images/12.png) 0 12px no-repeat;}
+.col3,.col131{background:transparent url(images/14.png) 0 12px no-repeat;}
+.col4,.col141{background:transparent url(images/15.png) 0 12px no-repeat;}
+
+.col11{background:transparent url(images/06.jpg) 0 12px no-repeat;}
+.col12{background:transparent url(images/07.jpg) 0 12px no-repeat;}
+.col13{background:transparent url(images/08.jpg) 0 12px no-repeat;}
+.col14{background:transparent url(images/09.jpg) 0 12px no-repeat;}
+
+.col1,.col2,.col3,.col5,.col11,.col12,.col13,.col111,.col121,.col131{width:220px;float:left;margin-top:10px;margin-right:30px;padding:10px 0;}
+.col4,.col6,.col14,.col16,.col141{width:220px;float:right;margin-top:10px;padding:10px 0;}
+
+.reno{background:transparent url(images/reno.jpg) 0 0 no-repeat;width:220px;height:121px;}
+.reno a img{text-align:center;display:block;margin:0 auto;padding:9px 0;}
+
+#member{position:absolute;top:220px;left:25px;font:normal 18px times new roman, georgia,baskerville;text-transform:uppercase;letter-spacing:-1px;}
+#signup{position:absolute;top:220px;right:45px;font:normal 18px times new roman, georgia,baskerville;text-transform:uppercase;letter-spacing:-1px;}
+#signup a,#member a{color:#F2EFBC;text-decoration:none;}
+
+/* ----------------------------------- buttons */
+.read{clear:both;margin:12px 0;padding:0;border:0;background:transparent url(images/Rakeback.png) 0 0 no-repeat;width:99%;height:40px;display:block;}
+.more{margin-bottom:30px;padding:0;border:0;background:transparent url(images/Rakeback.png) 50% 100% no-repeat;width:99%;height:60px;display:block;}
+.more a{display:block;text-align:center;}
+
+/* ----------------------------------- h tags */
+h2{color:#EE3225;font:100 24px 'Open Sans',times new roman, georgia,baskerville;padding:10px 0;margin:0;font-variant:small-caps;}
+h3{color:#EE3225;font:100 17px 'Open Sans',times new roman, georgia,baskerville;padding:8px 0;margin:0;font-variant:small-caps;}
+
+/* ----------------------------------- columns */
+#middle{float:left;width:67%;margin:0;padding:5px 0 0 10px;overflow:hidden;}
+
+/* ----------------------------------- bar */
+#sidebar{float:right;background:transparent;width:23%;margin:0;padding:10px 0;overflow:hidden;}
+#sidebar p{padding:16px 0;margin:0;}
+#sidebar ul{list-style:none;margin:0;padding:7px 0;}
+#sidebar li{list-style:none;margin:0;padding: 0;}
+#sidebar ul li,#footer ul li{margin: 0;padding:5px 0;}
+#sidebar ul li a{text-decoration:none;color:#EE3225;}
+#sidebar h2{color:#333;}
+#sidebar ul li a:hover{color:#333;text-decoration:underline;}
+
+/* ----------------------------------- bar feeds */
+#feed{background:transparent url(images/feeds.png) 50% 0 no-repeat;width:235px;height:260px;margin:0;padding:0;}
+#feed .rss a{height:120px;width:230px;text-indent:-9000px;margin:0;padding:0;display:block;outline:none;}
+#feed .twt a{height:120px;width:230px;text-indent:-9000px;margin:15px 0 0 0;padding:0;display:block;outline:none;}
+
+/* ----------------------------------- lists */
+#content p ol,#content p ul{margin:12px 0;padding:10px 0;}
+blockquote{margin:25px 0;padding:0 25px 0 10px;font-style:italic;color:#EE3225;border-left:7px double #EE3225;font:19px 'Open Sans',times new roman;}
+#content blockquote p{margin:20px 0;padding:0;}
+
+/* ----------------------------------- lists */
+#content p{padding:0;margin:0;}
+#content ul{list-style:none;margin:0;padding:12px 0;list-style-position:inside;}
+#content ul ul{list-style:circle;margin:0;padding:12px 0;list-style-position:inside;}
+#content ul li{margin:0;padding:5px 0 0 0;}
+#content ul li a{color:#666;text-decoration:none;}
+#content ul li a:hover{color:#000;text-decoration:underline}
+#content ol{margin:0;padding:12px 0;}
+#content ol li{margin:0;padding:5px 0 0 9px;list-style-type:upper-roman;}
+
+#content img.wp-smiley{float:none;border:none;padding:0;margin:0;}
+#content img.wp-wink{float:none;border:none;padding:0;margin:0;}
+
+.postspace{clear:both;background:transparent;width:99%;height:32px;margin:0;padding:0;}
+
+/* ----------------------------------- date */
+.date{font-size:11px;text-align:right;float:right;margin:-42px 0 0 0;padding:0;background:transparent url(images/cal.gif) 0 0 no-repeat;}
+.date span.date{color:#333;padding:0 2px 0 4px;}
+.bigdate{font:normal 25px times new roman, georgia,baskerville;color:#333;text-decoration:none!important;}
+
+.entry{clear:both;margin:6px 0;padding:5px 0;}
+.entry p imgs{float:left;border:none;margin:5px;max-width:80%;}
+.rel{border-right:1px solid #ccc;float:left;width:49%;padding:19px 0 0 0;}
+.book{float:right;width:49%;padding:19px 0 0 0;}
+.col1 ul,.col2 ul,.rel ul,.book ul{margin:5px 0;padding:2px 0;list-style:none;}
+.rel ul li a,.book ul li a{padding:6px 0;margin:5px 0;list-style:none;text-decoration:none;color:#333;}
+.rel ul li img,.book ul li img{float:right;}
+
+/* ----------------------------------- footer */
+#footer{clear:both;background:#000;width:100%;margin:0 auto;padding:0;}
+#footer .inner{background:transparent url(images/VIP-Rakebacks.png) bottom center no-repeat;color:#fff;width:980px;padding:55px 0 0 0;}
+.foo{background:transparent;width:100%;height:41px;padding:0;}
+#footer h2{color:#EE3225;padding-left:45px;height:22px;display:block;overflow:hidden;text-transform:uppercase;font-size:20px;}
+#footer h3{margin-top:-19px;padding-left:45px;color:#E3BB5C;height:18px;display:block;overflow:hidden;font:normal 10px arial;text-transform:uppercase;}
+
+#footer ul{list-style:none;margin:10px 0;padding:8px 0;}
+.creditl ul,.creditl ul li,.news ul,.mews ul,#footer li,.news li,.mews li{list-style:none;margin:0;padding:0;}
+#footer ul li,.news ul li,.mews ul li,.creditl ul li{margin: 0;padding:3px 0;}
+#footer ul li a{color:#fafafa;}
+#footer ul li a:hover{color:#ccc;}
+.col12 img,.col13 img,.col14 img{float:right;width:25px;height:25px;}
+
+.creditl{background:transparent;margin:25px 0 0 0;clear:both;padding:31px 0;font:normal 16px arial;color:#666;width:100%;display:block;}
+.credits{clear:both;background:transparent;width:99%;margin:0;padding:10px 0;color:#666;font:normal 11px arial;color:#666;text-align:left;display:block;}
+.credits a,.creditl ul li a,.creditl a{color:#666!important;}
+.creditl ul li{color:#666;padding:6px 12px 6px 0!important;margin:5px 0!important;list-style:none;text-decoration:none;float:left;display:inline-block;}
+
+/* ----------------------------------- search */
+#search{padding:0;margin:3px 0 0 0;float:right;}
+#searchdiv{margin:0;padding:0;}
+#searchform{margin:0;padding:0;overflow:hidden;}
+#s{width:200px;background:transparent url(10.png) 100% 0 no-repeat;color:#ccc;border:0;border:1px solid #333;font:normal 14px times new roman, georgia,baskerville;padding:3px;margin:12px 0;float:right;}
+
+/* ----------------------------------- comments */
+#comments{width:100%;padding:12px 0;}
+#comments h3,h3#respond{color:#555;margin-bottom:7px;}
+ol.commentslist{list-style:none;margin:5px 0;}
+.commentslist li{background:#fff;border:1px solid #ccc;margin:7px 0;padding:7px 0;}
+.commentslist li a{font-weight:400;}
+.commentslist li.alt{background:#fafafa;}
+.commentslist li:hover{border-color:#888;}
+.commentslist .comment_text{margin:0;line-height:1.4em;overflow:hidden;}
+.comment_text p,.comment_text ul,.comment_text ol,.comment_text blockquote{margin:1em 0;}
+.comment_text ul,.comment_text ol,.comment_text blockquote{margin:0 1em;}
+
+p.author_meta{font-weight:400;font:18px georgia;margin:0 0 0 7px;}
+p.post_meta{font-size:11px;text-align:right;margin:0 7px 0 0;}
+.count{float:left;display:block;width:33px;height:33px;font:33px georgia;color:#333;line-height:33px;}
+
+.commentslist li.author{background:#fff;color:#333;}
+.commentslist li.author a{color:#ddd;}
+.commentslist li.author a:hover{color:#333;}
+#comments_closed{background:#333;color:#ccc;padding:7px 0;margin-top:12px;line-height:1.5em;}
+p.nocomments{margin:0 12px 0 7px;}
+p.nocomments a{color:#ddd;font-weight:bold;text-decoration:underline;}
+p.nocomments a:hover{color:#ccc;}
+ol.pingslist{margin:1.5em 2em;font-size:12px;}
+.pingslist li{color:#7F7F7F;margin:0 0 7px 0;}
+.pingslist li a{font-weight:bold;}
+#commentform p{margin:1em 0;}
+#commentform p a{font-weight:bold;}
+#author,#email,#url,#comment{font:1.1em arial,helvetica,verdana,sans-serif;border:1px solid #BBB;padding:2px;}
+#comment{width:99%;overflow:hidden;}
+#commentform p small{font-size:10px;color:#8A753F;}
+.commentslist code{background:transparent;}
+#commentform textarea{width:99%;height:255px;border:1px solid #ccc;padding:2px 0;margin-top:3px;color:#333;background:#fff ;}
+#commentform #submit{background:transparent;font:normal 22px  times new roman, georgia,baskerville;color:#333;border:1px solid #ccc;width:200px;height:35px;cursor:pointer;text-transform:uppercase;}
+
+p.comments_link img{margin:0;padding:0;border:none;}
+
+hr.clear{clear:both;visibility:hidden;margin:0;padding:0;}
+
+/* ----------------------------------- floats */
+.center,.aligncenter{text-align:center;display:block;margin:0 auto;padding:5px;}
+.alignleft,.left{float:left;margin-right:10px;margin-bottom:5px;}
+.alignright,.right{float:right;margin-left:10px;margin-bottom:5px;}
+
+.navigation{color:#333;font:normal 16px Arial,Sans-Serif;padding:8px 0;margin:12px 0;font-variant:small-caps;clear:both;}
+
+/* ----------------------------------- wordpress */
+.cat{margin:16px 0;padding:5px;background:#fafafa;display:block;}
+.time{float:right;font:1.5em  times new roman, georgia,baskerville;line-height:100%;margin:-30px 0 0 0;padding:2px 0 0 0;width:34px;height:40px;text-align:center;background:transparent url() 0 0 no-repeat;}
+.time a{cursor: help;color:#900;}
+.back{float:right;margin:-40px 0 0 0;padding:0;width:121px;height:32px;background:transparent;}
+.drop{float: left;font: 2.5em  times new roman, georgia,baskerville;line-height:100%;margin:3px 8px 0 0;width:30px;text-align:center;}
+.acronym, abbr, span.caps{ font-size: 0.9em;letter-spacing: .07em;}
+.acronym, abbr, span.caps {cursor: help;}
+.acronym, abbr {border-bottom: 1px dashed #094426;}
+
+table{width:100%;background:#fafafa;border:1px solid #ccc;color:#333;margin:12px 0;}
+caption{font-size:.8em;font-style: italic;text-align:right;color:#666;}
+td{padding:.3em;border:1px solid #ccc;}
+tr{color:#333;background:#fafafa;}
+tr.alt,tr.even{background:#ccc;}
+th{padding:.3em;color:#000;background:#fafafa;border:1px solid #ccc;}
+td a,th a{font-weight:bold;color:#900;}
+
+dl{margin:12px 0;border-bottom:1px solid #ccc;padding:0.5em 0;}
+dt{display:inline;margin:9px 0;padding:0;color:#333;font-style:italic;}
+dd{display:block;margin:7px 0;padding:0;}
+dd a{color:#01245C;}
+dd a:hover{color:#333;}
+
+code{padding:0 3px;margin:12px 0;background:#fafafa;}
+pre{overflow:auto;padding:9px;background:#fafafa;border:1px solid #ccc;}
+pre code{padding:0;background:transparent;}
+
+.wp-caption{padding:6px 1px 0 1px;background:#fafafa;text-align:center;}
+.wp-caption .wp-caption-text{margin:0;padding:0 5px;text-align:right;font-size:.8em;color:#666;}
+.wp-caption img{margin:0 auto;padding:0;border:1px solid #666;}
+.gallery{display:block;text-align:center;margin:18px 0;}
+.gallery img{border:1px solid #ccc;}
+
+#sfversion,#wp-admin-bars {display:none;}
+
+@media only screen and (max-width: 1024px),(min-device-width: 1024px) and (max-device-width: 1024px){
+#search,.h_right,.nav li a span,#menu2{display:none;}
+#wrap,.mews,.col1, .col2, .col3, .col5, .col11, .col12, .col13, .col111, .col121, .col131,
+.col4, .col6, .col14, .col16, .col141{float:none;display:block;width:100%;clear:both;margin:5px 0;padding:5px 0;}
+.slidetxt,#wrapper,.wrappers,.news,#footer .inner,.inner{width:95%;float:none;display:block;}
+#nav li a,#nav li{padding:20px 4px;}
+#logo {width:110px;}#menu{width:80%;}
+}
+@media only screen and (max-width: 724px),(min-device-width: 724px) and (max-device-width: 724px){
+.wrappers {background: transparent url(images/VIP-Rakebacks.png) 50% -25px no-repeat;overflow:hidden}
+#header {height:99px;}
+#logo{width:100%;height:40px;}
+#menu{margin:6px 0 0 0;clear:both;width:100%;height:50px;display:block;overflow:hidden}#menu li {margin:0 0 100px 0}
+}

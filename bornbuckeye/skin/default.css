@@ -1,0 +1,82 @@
+/*
+#1 = 900
+#2 = 900
+*/
+a {
+	color: #900;
+}
+a:hover {
+	color: #f00;
+}
+
+/* menu */
+.nav>li>a:hover {
+	color: #f00;
+}
+
+.navbar .navbar-nav > .active > a {
+	color: #900;
+}
+
+/* flexslider */
+.flex-control-paging li a {
+	background: #900;
+}
+
+.flex-direction-nav a:hover{
+	background-color:#900;
+}
+
+.testimonial span.author a {
+	color: #900;
+}
+
+/* --- icon box hover --- */
+.hi-icon-effect-5 .hi-icon {
+	color: #900;
+	box-shadow: 0 0 0 4px #900;
+}
+.no-touch .hi-icon-effect-5 .hi-icon:hover {
+	background: #900;
+	box-shadow: 0 0 0 8px  #900;
+}
+
+
+/* portfolio */
+.portfolio-item .portfolio-desc {
+	background: #900;
+}
+
+/* btn */
+.btn-theme {
+  background: #900;
+}
+.btn-theme:hover,.btn-theme:focus,.btn-theme:active{
+  background: #900;
+}
+.btn-cta,.btn-cta.btn-lg {
+  background: #900;
+  border-color: #900;
+}
+
+.btn-cta:focus,.btn-cta:active{
+   border-color: #900;
+}
+
+/* contact */
+.validation {
+	color:#900;
+}
+
+/* footer */
+.social-circle li a {
+	background:#900;
+}
+
+a.scrollup{
+	background:#900;
+}
+body{
+
+overflow-x: hidden; // hide horizontal
+}

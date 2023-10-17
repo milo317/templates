@@ -1,0 +1,112 @@
+/*
+Theme Name: avid
+Theme URI: http://3oneseven.com
+Description: Custom version for Keishon.
+Version: 3.17
+Author: miloIIIIVII 
+Author URI: http://3oneseven.com/
+
+*/
+
+body{font:72% Verdana, "Bitstream Vera Sans", sans-serif;color:#333;background:#fff;text-align:center;margin:0;border-top:6px double #326B59;}
+#page{background:#fff;text-align:left;margin:0 auto 0;padding:20px 0 10px;position:relative;width:770px;}
+#header_wrapper{background:#fff url(wrap.jpg);width:100%;}
+#header{background:transparent url(logo.gif) center left no-repeat;height:100px;width:770px;padding:0;margin:0 auto;}
+#menu_wrapper{background:#678566;width:100%;}
+#menu{background:#678566;width:770px;height:28px;padding:0;margin:0 auto;}
+ul.menu{margin:0;padding:6px 0 0 0;text-align:left;}
+ul.menu li{list-style-type:none;display:inline;margin-right:5px;}
+ul.menu li a{font:1.2em Verdana,Sans-Serif;text-transform:uppercase;color:#fafafa;padding:6px 8px 6px 8px;}
+ul.menu li a:hover{background:#769975 !important;color:#BEDAA5;}
+ul.menu li.current_page_item a,ul.menu li.current_page_item a:hover{color:#BEDAA5;background:#769975;text-decoration:none;}
+p#about{font-size:15px;width:220px;margin:0 0 0 520px;padding:12px 0 0 0;color:#555;line-height:1.3em;letter-spacing:-1px;}.primary{width:500px;float:left;padding:0;margin:0 20px 0 0;display:inline;}input#s{width:135px;margin-right:2px;font-size:9px;}.search{margin:10px 0 20px 0 !important;}.secondary{font:1em/1.5em 'Lucida Grande',Verdana,Arial,Sans-Serif;text-align:left;width:200px;float:right;color:#555;position:relative;}
+.comments{text-align:left;padding:30px 0 0;position:relative;}a img,:link img,:visited img{border:none;}
+h2,h3,h4{font-family: "lucida grande",tahoma,arial,helvetica,sans-serif;}
+.pagetitle{text-align:left;margin:15px 0 15px;}.pagetitle h2{font-size:2em;font-weight:normal;letter-spacing:-1px;text-align:center;display:inline;}
+.secondary h2{padding:0;display:inline;font-size:13px;font-weight:bold;color:#555;text-transform:uppercase;}
+.secondary h2 a:hover{color:#fff !important;}.secondary p{line-height:1.3em !important;margin-bottom:-2px !important;margin-top:5px!important;font-size:12px;}.sb-module{font-size:12px;line-height:1.1em;}
+code{font:1em 'Courier New',Courier,Fixed;display:block;overflow:auto;text-align:left;background:#111;color:#fff;
+border:1px solid #326B59;border-left:6px solid #326B59;padding:4px;}
+a:link,a:visited,a:active{}.primary h3 a:hover{color:#000;}
+a{color:#326B59;text-decoration:none;}a:hover{text-decoration:none;color:#fff;background:#326B59;}
+.clear:after {display:block;visibility:hidden;clear:both;height:0;content:".";}.clear {display:inline-block}
+.clear {display:block}.primary img{padding:2px 0 2px 0;max-width:90%;}
+.permalink .itemtext img{max-width:500px;min-width:0px;}.alignright{float:right;}
+.alignleft{float:left}img.center,img[align="right"]{display:block;margin-left:auto;margin-right:auto;}
+img.alignright,img[align="right"]{padding:4px;margin:0 0 2px 7px;display:inline;}
+img.alignleft,img[align="left"]{padding:4px;margin:0 7px 2px 0;display:inline;}
+small{font-size:.9em;line-height:1.4em;}
+small,strike{color:#333;}
+.commentlist blockquote,blockquote{margin:20px 0;padding:0 30px 0 30px;color:#888;line-height: 1.2em;font-family: Trebuchet MS, Serif;}hr{display:none;}.alert{background:#fafafa;border-left:2px solid #900;border-right:2px solid #900;text-align:center;margin:10px auto;padding:5px 20px;}.itemtext ol,.itemtext ul{padding:0 0 0 35px;margin:0;}.itemtext ol li,.itemtext ul li{margin:0 0 3px;padding:0;}
+.secondary ul,.secondary ol{margin:5px 0 0;padding-left:0;}
+.secondary ul{margin-left:0;}
+.secondary ol{margin-left:15px;}
+.secondary li a{display: block;}
+.secondary ul li,.secondary ol li{margin:0;padding:1px 0;}
+.secondary ul li{list-style-type:none;list-style-image:none;}
+ol li{list-style:decimal outside;}
+h1{font-size:2.5em;font-weight:bold;letter-spacing:-1px;margin:0;padding:0;color:#000;}
+#header .description{font-size:1.2em;color:#333;margin:0;padding:0;color:#000;}
+.center{text-align:center;padding-bottom:0px;margin:0;}
+.ar-categories ul,.ar-popular ul{width: 500px;list-style-type:none;margin:0;padding:0;}
+.ar-categories ul li {display: block;margin: 0;float:left;width:230px;}
+.primary h3 a:hover{background:#eee;color:#000;}
+.primary .metadata a:hover{color:#fff;}
+.primary h3,.primary h4,.permalink .primary .aside h3{font-size:1.8em;font-weight:normal;letter-spacing:-1px;
+display:inline;}
+.primary .aside h3{font-size:1.5em;font-weight:normal;}
+.itemhead{margin-top:10px;}
+.itemtext h3{font-size:1.7em;display:block;padding:15px 0 0;}
+.itemtext h4{font-size:1.5em;display:block;padding:15px 0 0;}
+.secondary div{margin:20px 0 0;padding:0;}
+.permalink .primary .aside .itemtext{font-size:1.1em;color:#444;}
+.aside{padding:10px 0px 20px 0px !important;font-size:1.0em;}
+.editlink img{width:16px;height:16px;border:none !important;padding:0 !important;margin:4px 0 0 !important;
+position:absolute;right:0;}
+.aside .editlink img{top:9px;}
+.commentseditlink{border:none;padding:2px;padding-left:10px;}
+h2,h2 a,h2 a:visited,h3,h3 a,h3 a:visited,h4,h4 a,h4 a:visited{color:#444;}
+h3 a:hover{color:#fff;}
+h2,h2 a,h2 a:hover,h2 a:visited,h3,h3 a,h3 a:hover,h3 a:visited,h4,h4 a,h4 a:hover,h4 a:visited
+{text-decoration:none;}
+h2 a:hover,h2 span a:hover{color:#000;background:#eee;}
+.metadata{color:#9c9c9c;font-size:12px;display:block;margin-bottom:-8px;margin-top:0;}
+.metadata a{color:#777;}
+.aside .metadata{font-size:12px;}
+.commentslink{padding:0;}
+.primary .item{margin:0;padding:5px 0 15px;position:relative;}
+.primary .item .itemtext{font:1.1em/1.5em 'Lucida Grande',Verdana,Arial,Sans-Serif;text-align:left;color:#444;}
+.primary .item .itemtext p,.primary .item .itemtext ul,.primary .item .itemtext ol,
+.primary .item .itemtext div,.primary .item .itemtext blockquote{margin:10px 0;}
+.primary .aside .itemtext p,.primary .aside .itemtext ul,.primary .aside .itemtext ol,
+.primary .aside .itemtext div,.primary .aside .itemtext blockquote{margin:8px 0;}
+.permalink .primary .aside .itemtext p,.permalink .primary .aside .itemtext ul,
+.permalink .primary .aside .itemtext ol,.permalink .primary .aside .itemtext div,
+.permalink .primary .aside .itemtext blockquote{margin:13px 0;}
+.comments .commentlist{padding:10px 0 0 0;position:relative;}
+.comments .commentlist li{margin:10px 0 10px;padding:2px 0px 2px 0px;list-style:none;}
+.comments .commentlist li img.gravatar{float:right;padding-right:3px;width:38px;height:38px;}
+.comments .commentlist li .commentauthor{font-size:1.5em;font-weight:bold;letter-spacing:-1px;}
+.comments .commentlist li.authorcomment{list-style:none;background:#fff;border-bottom:2px solid #F2FCE9;
+padding:2px;}
+.comments .pinglist{font-size:1.2em;padding:0;margin:0;}
+.comments .pinglist li{list-style:none;margin-top:4px;padding:5px 0 5px 0;}
+.comments .pinglist li .commentauthor{font-weight:bold;display:block;}
+.authorcomment,.authorcomment li a,.authorcomment a{font-weight:bold;color:#326B59;}
+.comments .pinglist li small{font:1em Arial,Sans-Serif;display:block;}
+.comments .pinglist li .counter{display:none;}
+.comments .pinglist li img{padding:0;border:none;}
+.commarea{background-color:#ececec;width:480px;padding:10px;}
+.commdate{background:url(com.gif) 20px 0 no-repeat;padding-left:58px;padding-top:1px;
+margin-bottom:2em;font-size:90%;color:#4A4A4A;}.comments #leavecomment{text-align:center;margin-bottom:40px;color:#ddd;font-size:2em;letter-spacing:-2px;}
+.comments form{clear:both;padding:1px 0 30px;margin:0;width:500px;}
+input[type=text],textarea{font:1.1em Verdana,Arial,Helvetica,Sans-Serif;padding:3px;color:#333;background:#fff;
+margin:0;}.comments form input[type=text]{width:45%;margin:5px 5px 1px 0;}
+.comments form textarea{height:200px;padding:2px;width:100%;width:98.5%;}.comments form #submit{margin:0;float:right;}.navigation{text-align:center;margin:10px 0 10px;width:99%;}.navigation .left{float:left;width:50%;text-align:left;}.navigation .right{float:right;width:50%;text-align:right;}.navigation p{margin:0;padding:0;}.navigation a{color:#777;}.navigation a:hover{color:#fff;}
+/*BLC*/.sb-comments-blc ul li span a, .sb-comments ul li small a{color:#999;}
+sb-comments-blc li > a[title="Go to the comments of this entry"]{position: absolute;right:0;color: #999;}
+.sb-comments-blc a:hover{color:#fff !important;}
+.activityentry {font-size:12px;}
+div#brians-latest-comments small{display:block;margin:0;}
+#footer small{font-size:1em;}
+#footer{height:100px;margin:0;padding:0;text-decoration:none;text-align:center;background:#BFDBA6 url(wrap.jpg);width:100%;color:#333;border-top:8px double #F2FCE9;}#footer a{color:#333;font-weight:bold;}#footer a:hover{border:none;text-decoration:none;color:#000;background:#fff;}#footer a:link,#footer a:visited{text-decoration:none;border:none;}

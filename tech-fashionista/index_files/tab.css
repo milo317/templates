@@ -1,0 +1,8 @@
+#contentmiddle,#contentmiddle2,#contentmiddle3,
+.colm4,.colm5,.colm6,.stepcarousel,
+#wrap{width:98% !important;margin:0 auto !important;padding:0 !important;display:block !important;float:none !important;overflow:hidden !important;}
+#topleft {display:block;width:98%;}
+#tag,#topright {display:none;}
+#header{clear:both;background:transparent url(log1.png) 50% 25px no-repeat;width:100%;height:162px;margin:0 auto;padding:0;z-index:999 !important;position:relative;}
+#searchform {right:5%;top:-25px;}
+#fhead{display:block;width:98%;left:1%;}

@@ -1,0 +1,148 @@
+/*
+Theme Name: Mojo
+Theme URI: https://3oneseven.com/
+Description: x-files style
+Version: 3.17.2
+Tags: 3 column widgetready white fixed 
+Author: milo
+Author URI: https://3oneseven.com/
+*/
+body {	
+	color: #fff;	
+	font-family: "Arial", Arial, Helvetica, sans-serif;	
+	font-size: 12px;		
+	background: #000;
+	overflow:hidden;
+}
+html, body {width:100%;height:100vh; margin:0; padding:0;}
+
+* {margin:0; padding:0;}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a img{
+	border:0;
+}
+
+#img_container{
+	width:2154px;		
+	position:relative;
+}
+
+#xh_line, #h_line2{
+	width:258px;
+	height:1px;
+	background: url(../images/h_line.png);
+	position:absolute;
+	z-index:99;
+	top:0;
+	left:-258px;
+}
+
+#v_line, #xv_line2{
+	width:1px;
+	height:242px;
+	background: url(../images/v_line.png);
+	position:absolute;
+	z-index:99;
+	top:-242px;
+	left:0;
+}
+
+#slide_container{	
+	width:742px;	
+	height:0px;
+	top:-484px;
+	position:absolute;
+	left:0px;		
+	z-index:99;
+	overflow:hidden;
+}
+
+#info_container{	
+	width:259px;
+	height:0px;
+	top:-242px;
+	position:absolute;
+	left:0px;	
+	background:#DD5D00;
+	z-index:99;
+}
+
+#v_strip{	
+	width:258px;
+	height:0px;	
+	top:0;
+	left:50%;
+	margin-left:-500px;
+	position:absolute;		
+	background:#DD5D00;
+}
+
+.img{
+	width:259px;
+	height:242px;	
+	float:left;
+	cursor:pointer;
+	position:relative;
+	text-indent:-3000px;
+}
+.img a{
+	display:block;
+	text-indent:-3000px;
+}
+
+#logo{
+	width:230px;
+	height:242px;	
+	float:left;
+	background: url(../images/logo.jpg) left top no-repeat;	
+	position:fixed;
+	left:5%;
+	top:0;
+}
+
+#navi{
+	float:left;
+	background: transparent;	
+  display:inline-block;text-transform:uppercase;
+  -webkit-transform: rotate(-90deg) translateY(50%);transform:rotate(-90deg) translateY(50%);float:left;position:absolute;top:195px;right:1%;letter-spacing:0.2rem;margin: 0;z-index:999;
+}
+#navi a{font:12px open sans,arial,helvetica;color:#fff;padding:0 20px 0 0;}
+#navi a:hover{color:#D15700;}
+.slide{
+	visibility:hidden;
+	position:absolute;border:1px solid #fff;
+}
+.slide_container iframe,.slide opbject,.slide embed{
+width:742px !important;height:417px !important;
+}
+.img1{
+	background: url(../images/1.jpg);	
+}
+.img2{
+	background: url(../images/2.jpg);		
+}
+.img3{
+	background: url(../images/3.jpg);		
+}
+.img4{
+	background: url(../images/4.jpg);		
+}
+.img5{
+	background: url(../images/5.jpg);	
+}
+.img6{
+	background: url(../images/6.jpg);
+}
+.img7{
+	background: url(../images/7.jpg);
+}
+@media only screen and (max-width: 1024px),(min-device-width: 1024px) and (max-device-width: 1024px){
+.slide_container iframe,.slide opbject,.slide embed{width:100% !important;height:417px !important;}
+#navi a{font:11px arial,helvetica;color:#fff;padding:0 20px 0 0;}
+#slide_container{	width:100%;	}
+}

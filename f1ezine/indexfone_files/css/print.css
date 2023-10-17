@@ -1,0 +1,186 @@
+/*  
+
+Theme Name: print
+URI: http://3oneseven.com/
+Description: Specials.
+Version: 3.17
+Author: miloIIIIVII
+Author URI: http://3oneseven.com/
+
+NOTE: Sole property of f1ezine www.f1ezine.com and 3oneseven.com. 
+NO copying, "inspiration" or any other form of use allowed.
+Protected under copyright laws of the EU.
+eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:31992L0100:EN:HTML
+*/
+*{margin:0;padding:0;}
+
+body{background:#fff;color:#333;margin:0;padding:0;}
+
+/* ----------------------------------- wrapper */
+#wrap{clear:both;background:transparent;color:#333;font:normal 16px/23px Tahoma,Helvetica,Sans-Serif;padding:0;width:90%;margin:0 auto;}
+#content{width:100%;margin:0 auto;padding:0;background:transparent;}
+#wrapper{background:transparent;padding:0;width:100%;margin:0;}
+
+/* ----------------------------------- links */
+a,a:visited{color:#000;text-decoration:none;}
+a:hover{text-decoration:none;color:#900;border:0;}
+
+/* ----------------------------------- header */
+.head{background:transparent;width:90%;height:130px;margin:0 auto;padding:0;overflow:hidden;}
+#top h1,#top h1 a{display:block;height:40px;width:380px;margin:0;padding:0;float:left;font-size:35px}
+#top h1 span{color:#A03F1A;letter-spacing:-5px;}
+.description{display:none;}
+#top h1 a:hover{color:#ccc;text-decoration:none;border:0;}
+
+/* ----------------------------------- catnav */
+#top{background:transparent;width:100%;height:130px;margin:0;padding:0;}
+#tops{background:transparent;width:90%;height:60px;margin:0 auto;padding:0;}
+
+/* ----------------------------------- catnav ul */
+#categories{display:none;}
+
+/* ----------------------------------- logo */
+.headl{background:transparent;width:28%;margin:0;padding:0;float:left;overflow:hidden;display:inline;}
+#headr{background:transparent;width:100%;height:86px;margin:0 auto;padding:0;overflow:hidden;}
+
+/* ----------------------------------- rss nav */
+.nav{display:none;}
+
+/* ----------------------------------- main nav */
+#navi{display:none;}
+
+/* ----------------------------------- search (crappy ie hack ncc) */
+#searchdiv{display:none;}
+#navi span{display:none;}
+
+/* ----------------------------------- main col */
+#mid{background:transparent;float:left;width:65%;margin:10px 0;padding:0;border:0;overflow:hidden;display:inline;}
+#mid2{background:#fff;float:left;width:58%;margin:10px 0 0 0;padding:15px 0 0 20px;border:0;overflow:hidden;display:inline;}
+
+#content p{padding:10px 0;margin:0;}
+.post{padding:30px 0;margin:0;}
+
+/* ----------------------------------- header tags */
+h2{font:normal 26px century gothic,tahoma,Helvetica,Sans-Serif;padding:0;margin:0;font-variant:small-caps;font-style:italic;}
+h3{font:19px century gothic,tahoma,Helvetica,Sans-Serif;padding:0;margin: 0;font-variant:small-caps;font-style:italic;}
+#mid h2,#mid h3{color:#333;}
+
+/* ----------------------------------- post stuff */
+blockquote{margin:0 0 0 25px;padding:0 25px 0 10px;font-style:italic;color:#333;
+border-left:3px solid #ccc;background:#fff url(images/) no-repeat top right;}
+#content blockquote p{margin:0 0 20px 0;padding:0;}
+
+.entry{border:0;clear:both;margin:2px 0;padding:3px 0;}
+.drop{float:left;font:3.5em century gothic,tahoma,serif;line-height:100%;margin:3px 8px 0 0;width:53px;text-align:center;}
+.rel{float:left;padding:0;width:49%;}
+.rell{float:right;padding:0;width:49%;}
+
+.post_div{margin:0;padding:7px 0;clear:both;}
+.mett{font:normal 80%/165% century gothic,tahoma;border:0;color:#666;margin:0;padding:0;
+float:left;display:inline;overflow:hidden;}
+.text_related_post{float:left;text-align:left;width:70%;padding:0 0 0 20px;}
+
+.meta{font:90% century gothic,tahoma;background:#fff url(images/012.jpg) 0 0 repeat-x;color:#fff;height:33px;padding:5px 0 0 30px;}
+.meta a{color:#fff;font-style:italic;}
+.met{font:90% century gothic,tahoma;background:#fafafa;color:#333;height:33px;padding:5px 0 0 20px;}
+
+#mid .contentdate{background:transparent;float:right;width:44px;height:49px;margin:8px 0 0 0;padding:0;}
+#mid h5{color:#666;font:normal 12px century gothic,tahoma,serif;padding:0;margin:-9px 0 0 0;text-transform:uppercase;text-align:center;font-style:italic;}
+#mid h6{font:normal 42px century gothic,Helvetica,Sans-Serif;color:#333;padding:0 4px;margin:-12px 0 0 0;text-align:center;color:#666;letter-spacing:-8px;}
+
+.read{clear:both;text-align:right;float:right;font:17px century gothic,tahoma;font-style:italic;background:transparent url(images/016.jpg) 0 6px no-repeat;width:90px;padding:0 30px 0 0;}
+.reads{text-align:right;float:right;background:transparent url(images/011.jpg) center right no-repeat;width:60px;height:34px;padding:8px 35px 0 0;}
+
+#content img.wp-smiley{float:none;border:none;padding:0;margin:0;}
+#content img.wp-wink{float:none;border:none;padding:0;margin:0;}
+
+.postspace{clear:both;background:transparent;width:99%;height:32px;margin:0;padding:0;}
+#mid a img,#mid img{padding:4px;border:1px solid #ccc;}
+#mid a:hover img,#mid img:hover{padding:4px;border:1px solid #333;}
+
+/* ----------------------------------- video & teams */
+#video{margin:0 auto;display:block;text-align:center;border:0;padding:20px 0;}
+#mid #team{clear:right;float:right;display:inline-block;border:0;padding:10px 0;width:250px;height:230px;}
+#mid #team img{border:0;text-align:center;}
+
+/* ----------------------------------- ads */
+.ff img{border:.08em solid #274473;padding:.077em;margin:0 .077em .077em 0;opacity:.95;filter:Alpha(Opacity=95);width:4.5em;height:4.5em;float:left;}
+.ff img:hover{opacity:.3;filter:Alpha(Opacity=30);width:4.5em;height:4.5em;}
+
+/* ----------------------------------- lists */
+#mid ul{list-style:none;margin:0;padding:6px 0;}
+#mid ul li{margin:0;padding:5px 0;}
+#mid ul li a{color:#900;text-decoration: none;}
+#mid ul li a:hover{color:#ccc;text-decoration:underline}
+
+/* ----------------------------------- sidebar */
+#bar{display:none;}
+
+#r_sidebar{display:none;}
+#middle{display:none;}
+
+/* ----------------------------------- calendar */
+#wp-calendar{display:none;}
+
+/* ----------------------------------- floats */
+.aligncenter,.center{display:block;margin:0 auto;padding:4px;}
+.alignleft,.left{float:left;margin:4px 10px;padding:4px;}
+.alignright,.right{float:right;margin:4px 10px;padding:4px;}
+
+/* ----------------------------------- clear */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;} .clearfix{display:inline-block;}* html .clearfix{height:1%;}.clearfix{display:block;}
+hr.clear{clear:both;visibility:hidden;margin:0;padding:0;}
+
+/* ----------------------------------- tabs */
+#mid .domtabs{float:left;width:100%;list-style-type:none;margin:20px 0;padding:0;font:15px century gothic,arial,helvetica,sans-serif;background:transparent url(images/010.jpg) no-repeat 0 0;
+font-style:italic;}
+#mid .tabbr{width:100%;margin:20px 0;padding:0;}
+
+#mid .domtabs li{float:left;height:46px;}
+#mid .domtabs li a{display:block;padding:7px 8px;text-decoration:none;color:#fff;border-right:2px solid #333;border-bottom:0px;}
+#mid .domtabs a:hover{background:transparent;border-bottom:1px solid #fff;border-right:2px solid #333;text-decoration:none;}
+#mid .domtabs li.active a{color:#900;text-decoration:none;}
+
+/* ----------------------------------- wp stuff */
+.sentry{margin:0;padding:0;display:block;}
+.coll{width:50%;float:left;overflow:hidden;display:inline-block;}
+.colr{width:22%;float:right;overflow:hidden;display:inline-block;border-left:1px solid #ccc;padding:0 0 0 10px;border-bottom:1px solid #ccc;}
+table{width:100%;background:#fafafa;border:1px solid #ccc;color:#333;}
+caption{font-size:.8em;font-style: italic;text-align:right;color:#666;}
+td{padding:.3em;border:1px solid #ccc;}
+tr{color:#333;background:#fafafa;}
+tr.alt,tr.even{background:#ccc;}
+th{padding:.3em;color:#000;background:#fafafa;border:1px solid #ccc;}
+td a,th a{font-weight:bold;color:#900;}
+
+.acronym, abbr, span.caps{ font-size: 0.9em;letter-spacing: .07em;}
+.acronym, abbr, span.caps {cursor: help;}
+.acronym, abbr {border-bottom: 1px dashed #900;}
+
+dl{margin:12px 0;border-bottom:1px solid #ccc;padding:0.5em 0;}
+dt{display:inline;margin:9px 0;padding:0;color:#333;font-style:italic;}
+dd{display:block;margin:7px 0;padding:0;}
+dd a{color:#900;}
+dd a:hover{color:#333;}
+
+code{padding:0 3px;margin:12px 0;background:#fafafa;}
+pre{overflow:auto;padding:9px;background:#fafafa;border:1px solid #ccc;}
+pre code{padding:0;background:transparent;}
+
+.wp-caption{padding:6px 1px 0 1px;background:#fafafa;text-align:center;}
+.wp-caption .wp-caption-text{margin:0;padding:0 5px;text-align:right;font-size:.8em;
+color:#666;}
+.wp-caption img{margin:0 auto;padding:0;border:1px solid #666;}
+
+/* ----------------------------------- footer */
+#footer{display:none;}
+
+/* ----------------------------------- subfooter */
+#s_footer{display:none;}
+/* ----------------------------------- bottom slider */
+#featured{display:none;}
+
+#slider{display:none;}
+#featured{display:none;}
+
+/* ----------------------------------- bottom slider */

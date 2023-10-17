@@ -1,0 +1,10 @@
+#wrap .wrap,.wrap,.head{width:98%;}
+.narrowcolumn,.x-left{padding:0;width:100%;}
+.post {margin:5px 0;padding:20px 0;text-align: left;}
+.col1,.col2,.col3{padding:15px 0;width:100%;}
+#header h1,#header h1 a,#footer h1,#footer h1 a{letter-spacing:-1px;font:700 60px 'Alfa Slab One',Georgia,times,helvetica,arial,Verdana,Sans-Serif;margin:40px auto 0;padding:40px 0 0 0;height:auto;}
+.description{top:70px;left:0;height:30px;overflow:hidden;width:100%;}
+#menu,#smenu,.rel,.social,.sright,.xright{width:100%;}
+#zeit{top:70px;left:1%;}
+#shopp .gallery,.shopp_grid-3 .products .product{padding:10px 0 !important;width:98% !important;height:auto !important;}
+@media only screen and (max-width: 780px),(min-device-width: 768px) and (max-device-width: 1024px){/* Force table to not be like tables anymore */table,thead,tbody,th,td,tr{display:block;}/* Hide table headers (but not display: none;, for accessibility) */thead tr{position:absolute;top:-9999px;left:-9999px;}tr{border:1px solid #ccc;}td{/* Behave  like a "row" */border: none;border-bottom: 1px solid #eee; position: relative;padding-left: 50%; }td:before { /* Now like a table header */position: absolute;/* Top/left values mimic padding */top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}  

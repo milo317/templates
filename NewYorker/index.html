@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+
+<html xmlns="https://www.w3.org/1999/xhtml" >
+<head profile="https://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />	
+
+<title>New Yorker theme with clean grid design, custom fonts and a unique grid layout. </title>
+
+<link rel="stylesheet" href="style.css" type="text/css" title="default" media="screen" />
+<link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+
+<script src="js/modernizr.custom.js" defer></script>
+
+<style type="text/css">
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+body {
+    -webkit-backface-visibility: hidden;
+    overflow-x: hidden;
+}
+#navi {
+    background:transparent;
+}
+#head h1 a, #head h1 {
+    padding: 0px 0!important;
+    font: 400 100px/90% Gloock,'times new roman',georgia,Serif;
+    letter-spacing: -6px;
+   text-transform: uppercase;
+}
+.col4 h4 a, .col5 h4 a, .col6 h4 a, .col6 h4 a, .col7 h4 a{
+    font: 100 26px/90% Gloock,'times new roman',georgia,baskerville,serif;color:#333;
+}
+ul#pnav,.cl,#steaser .rap span,
+.credits h1,#featured h1 a, #tfeatured h1 a, #tfeatured h1,#steaser .ca-menu .ca-icon,
+#teaser .sentry p:first-of-type::first-letter,
+.hen h2,#steaser .rap h2 a,.hbigdate,.sun {
+    font-family: Gloock,'times new roman',georgia,baskerville,serif!important;
+}
+#featured h1 a, #tfeatured h1 a, #tfeatured h1 {letter-spacing: 0px;}
+
+.hdate,#steaser span{width: 30%;}
+
+.hdate,#steaser span,
+.hbigdate {
+    font: 100 425px/53% Gloock,'times new roman',georgia,baskerville,serif;
+}
+ul#fn li {
+    margin: 0 5px 0 0;
+    padding: 3px 0;
+}
+#header {
+    height: 120px;border-bottom: 1px solid #ccc;
+}
+#head {
+    height: 120px;
+    background: transparent url(images/3.webp) no-repeat 50% 99%;
+}
+#wrap, .wrap {
+    max-width: 1100px;
+    -moz-box-shadow: 0 0px 0px #fafafa;
+    -webkit-box-shadow: 0 0px 0px #fafafa;
+    box-shadow: 0 0px 0px #fafafa;
+}
+#head h1 a, #head h1 {
+    padding: 0px 0!important;
+   margin:0 auto;display:block;text-align:center;
+}
+#pnavi {
+    font: 100 16px arial,helvetica;
+}
+#top-nav li a:hover,#top-nav li a {
+    padding: 12px 18px;    text-transform: none;
+}
+#des {
+background: transparent url(images/leftl.webp) no-repeat 0 0;
+    height: 100px;
+    width: 100px;left:0;background-position: center center !important;
+    background-repeat: no-repeat!important;
+    background-size: cover !important;top:0px;opacity:.8;
+}
+#tags {
+    height: 100px;
+    width: 100px;
+    background: transparent url(images/right.webp) no-repeat 0 0;background-position: center center !important;
+    background-repeat: no-repeat!important;
+    background-size: cover !important;top:0px;opacity:.8;
+}
+#teaser h2 a, #steaser h2 a {
+    font-size: 80px;line-height:70%;font-family:Gloock,'times new roman',georgia,baskerville,serif;width:75%;
+}
+#teaser .sentry p:first-of-type::first-letter {
+    float: left;
+    font: 100 106px "Cormorant Unicase", times new roman, georgia, baskerville, serif;
+    letter-spacing: 0px;
+    color: #333;
+    margin: -30px 0px 20px;
+    padding: 0px 2% 0px 0px;
+    clear: both;
+    display: inline-block;
+}
+.hen h2 {font-size:18px ;letter-spacing: 2px;}
+.msentry {
+    overflow: hidden;
+    font-size: 18px;color:#666;
+}
+ul#top-nav {
+   font-size:14px;
+}
+#cat {
+    width: 100%;clear:both;display:block;position:relative;
+    height: 39px;
+    border-bottom: 0px solid #ccc;
+   font: 100 16px 'open sans', helvetica, arial;
+    position: relative;margin:4px 0 0 0;
+}
+ul#pnav {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    font: 100 18px georgia,Times New Roman,Times,serif;color:#666;
+}
+.cl {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    font: 100 18px georgia,Times New Roman,Times,serif;color:#666;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.hen {
+    padding: 0;
+    margin: 0px auto;
+    width: 100%;
+    height: 20px;
+    clear: both;
+    display: block;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+.hen h2 {
+    background: #fff;
+    color: #666;
+    display: block;
+    width: 250px;
+    margin: -15px auto 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.entry {
+    margin: 10px 0;
+    padding: 10px 0 0 0;
+    clear: both;
+}
+.hcx {
+    color: #666;
+    font: 100 18px/100% 'Cormorant Garamond',georgia,Times New Roman,Times,serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 0 1% 0;
+    font-size: 10px;
+
+    background: #fff;
+    color: rgb(172, 172, 172);
+}
+#teaser .wrap{
+    background: transparent url(images/3.webp) no-repeat 50% 99% ;position:relative;
+        margin: 0 auto 0;padding: 0 12px 40px 12px;width:100%;
+}
+.sun {
+    transform: translate(-5%, 5%);
+    transition: all 1s ease 0s;
+    white-space: nowrap;
+    color: transparent!important;
+    float: right;
+    display: block;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -19px;
+    -webkit-text-stroke: 1px rgb(204, 204, 204);
+    opacity: 0.8;
+    font-size: 19vw;
+    font-family: 'Playfair Display',times new roman,georgia,Serif;
+    position: absolute;
+    width: 100%;
+    bottom: 185px;
+    text-align:center;
+    right: -1%;font-variant: small-caps;
+}
+@media only screen and (max-width: 850px), (max-device-width: 850px) and (min-device-width: 850px){
+.sun {    letter-spacing: -9px;}
+#teaser h2 a, #steaser h2 a {font-size:42px;}
+#wrap, .wrap {width: 95%;}
+#head h1 a, #head h1 {
+    padding: 10px 0 0 0!important;
+    font: 400 72px/90% Gloock,'times new roman',georgia,Serif;
+    letter-spacing: -6px;
+}
+}
+@media only screen and (max-width: 480px), (max-device-width: 480px) and (min-device-width: 480px){
+ul#pnav {display:none;}
+.cl {margin: 0 auto;text-align:center;}
+#head h1 a, #head h1 {
+    padding: 10px 0 0 0!important;
+    font: 400 52px/90% Gloock,'times new roman',georgia,Serif;
+    letter-spacing: -6px;
+}
+}
+ #scroll-btn {
+      opacity: 0;
+      width: 40px;
+      height: 40px;
+      color: #285aad;
+      background-color: #fff;
+      position: fixed;
+      bottom: 5%;
+      left: 5%;
+      border: 2px solid #285aad;
+      border-radius: 50%;
+      font: bold 20px monospace;
+      transition: opacity 0.5s, transform 0.5s;
+    }
+    #scroll-btn.show {
+      opacity: 1;z-index:9999;
+      transition: opacity 1s, transform 1s;
+    }
+</style>
+
+</head>
+
+<body  id="newyorker_theme_by_milo317">
+
+<progress value="0" id="progressBar"><div class="progress-container"><span class="progress-bar"></span></div></progress>
+
+
+<div id="navi">
+
+<div class="wrap animated fadeInLeftBig">
+
+
+
+<div class="xtow2">
+
+<div id="xnavbar" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+<button id="trigger-overlay" type="button"><span style="display:none">Menu</span></button>
+
+</div>
+
+</div>
+
+
+
+<div id="pnavi">
+
+<ul id="top-nav">
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/"><img  loading="lazy" src="images/favicon.ico" alt="NewYorker" style="width:30px;margin-top:-6px;" /></a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Popular</a></li>
+</ul>
+
+</div>
+
+<div id="sub">
+<a class="a-btn" href="/">Subscribe</a>
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+<div class="wrap animated fadeInLeftBig">
+
+<div id="header">
+
+<div id="head">
+
+<h1><a href="https://317.is/new-yorker-magazine-theme/"> <span>New</span> Yorker</a></h1>
+
+</div>
+
+
+
+<div id="des"></div>
+
+<div id="tags"></div>
+</div>
+
+<div id="cat">
+
+<ul id="pnav">
+
+<li><span id="datetime"></span>
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script></li>
+
+</ul>
+
+<div class="cl">
+
+<small>Price</small> USD &#36; 1/19/11&#190; | <small>Vol. N<sup>o</sup>.</small> <span><script>document.write(new Date().getFullYear());</script></span>
+
+</div>
+
+</div>
+
+<div class="col4">
+		        
+<div class="orlando">Sed ut perspiciatis</div>
+
+<h4><a href="<?php the_permalink() ?>" >De finibus bonorum et malorum</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+
+</div>
+
+<div class="col5">
+		        
+<div class="orlando">Sed ut perspiciatis</div>
+
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Duis autem vel eum iriure dolor</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+
+</div>
+
+<div class="col6">
+<div class="orlando">Consetetur sadipscing elitr </div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >At vero eos et accusam</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="col7">
+<div class="orlando">Sed ut perspiciatis </div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Lorem ipsum dolor sit</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="ren" ></div>
+<div class="hen"><h2>Most Shared</h2></div>
+
+<div id="teaser">
+
+<div class="wrap animated fadeInLeftBig">
+
+<h2><a href="https://317.is/new-yorker-magazine-theme/" >De finibus bonorum et malorum</a></h2>
+
+
+<div class="entry">
+<div class="sentry"><p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p></div>
+
+</div>
+
+<div class="hcx" style="margin:0 auto;text-align:center;color:#111;">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+<div class="msentry" style="padding:0 0 15px 0;margin:0 auto 15px;text-align:center;"><b>De finibus bonorum</b> 
+Sed ut perspiciatis unde omnis iste natus error sit...</div>
+
+<div class="sun">NewYorker</div>
+</div>
+
+
+</div>
+
+<div id="featured">
+  		
+<div id="slider1" class="sliderwrapper">
+
+
+                
+<div class="contentdiv"> 
+
+<div class="h-f" style="background-image:url(images/1.jpg)"></div>
+<div class="cis">
+<div class="h-t">
+<div class="ctitle">Sed ut perspiciatis</div>
+<h1><a href="<?php the_permalink() ?>">De finibus bonorum et malorum</a></h1>
+<div itemprop="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti, Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet,</div>
+</div>
+<span class="hdate">12<span class="hbigdate">12</span></span>
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+ 
+
+</div> 
+               
+                      
+                
+<div id="paginate-slider1" class="pagination"></div>
+
+</div>
+
+</div>
+
+<div class="ren"></div><div class="ren"></div>
+<div class="hen"><h2>Most Popular</h2></div>
+<div class="ren"></div>
+
+<div id="steaser">
+<div class="wrap animated fadeInLeftBig">
+
+<div class="rap animated fadeInLeftBig">
+<span>1.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >Temporibus autem quibusdam</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="rap animated fadeInLeftBig">
+<span>2.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >Nam liber tempor cum soluta nobis</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="rap animated fadeInLeftBig">
+<span>3.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >At vero eos et accusam et justo duo</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="rap animated fadeInLeftBig">
+<span>4.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >Stet clita ea et gubergren</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="rap animated fadeInLeftBig">
+<span>5.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >Duis autem vel eum iriure dolor</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+</div> 
+
+<div class="col4">
+		        
+<div class="orlando">Sed ut perspiciatis</div>
+
+<h4><a href="<?php the_permalink() ?>" >De finibus bonorum et malorum</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+
+</div>
+
+<div class="col5">
+		        
+<div class="orlando">Sed ut perspiciatis</div>
+
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Duis autem vel eum iriure dolor</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+
+</div>
+
+<div class="col6">
+<div class="orlando">Consetetur sadipscing elitr </div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >At vero eos et accusam</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="col7">
+<div class="orlando">Sed ut perspiciatis </div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Lorem ipsum dolor sit</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="ren"></div><div class="ren"></div>
+<div class="hen"><h2>Most Read</h2></div>
+
+<div id="middle">
+
+<div class="sl"></div>
+
+<div class="florida">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12  | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div id="lbar">
+
+<div class="sl"></div>
+		        
+<div class="orlando">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12  | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div id="lrbar">
+
+<div class="sl"></div>
+
+<div class="orlando">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12 | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div class="ren"></div><div class="ren"></div>
+
+<div class="hen"><h2>Most Shared</h2></div>
+
+
+
+<div id="teaser">
+
+<div class="wrap animated fadeInLeftBig">
+
+ 	
+
+<div class="entry">
+
+<div class="msentry"><b>De finibus bonorum</b>  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</div>
+
+</div>
+
+<h2><a href="https://317.is/new-yorker-magazine-theme/" >De finibus bonorum et malorum</a></h2>
+
+
+
+<div class="entry">
+
+<div class="sentry"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="featured">
+  		
+<div id="slider1" class="sliderwrapper">
+
+
+                
+<div class="contentdiv"> 
+
+<div class="h-f" style="background-image:url(images/1.jpg)"></div>
+<div class="cis">
+<div class="h-t">
+<div class="ctitle">Sed ut perspiciatis</div>
+<h1><a href="https://317.is/new-yorker-magazine-theme/">De finibus bonorum et malorum</a></h1>
+<div itemprop="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti</div>
+</div>
+<span class="hdate">12<span class="hbigdate">12</span></span>
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+ 
+
+</div> 
+               
+                       
+                
+<div id="paginate-slider1" class="pagination"></div>
+
+</div>
+
+</div>
+
+
+<div id="mow">
+
+<div class="hen"><h2>Featured</h2></div>
+<div class="ren"></div>
+<ul class="ca-menu">
+
+
+                    <li class="one" style="background-image:url(images/1.jpg)">
+                        <a href="https://317.is/new-yorker-magazine-theme/">
+                           
+                            <div class="ca-content">
+                                <h2 class="ca-main">Temporibus autem quibusdam</h2>
+                                <h3 class="ca-sub">Temporibus autem quibusdam</h3>
+                            </div>
+                             <span class="ca-icon">At vero eos et accusamus</span>
+<div class="crong"></div>
+                        </a>
+                    </li>
+                  
+                    
+
+                    <li class="two" style="background-image:url(images/1.jpg)">
+                        <a href="https://317.is/new-yorker-magazine-theme/">
+                            
+                            <div class="ca-content">
+                                <h2 class="ca-main">Temporibus autem quibusdam</h2>
+                                <h3 class="ca-sub">Temporibus autem quibusdam</h3>
+                            </div>
+                            <span class="ca-icon">At vero eos et accusamus</span>
+<div class="crong"></div>
+                        </a>
+                    </li>
+                  
+                    
+ 
+                    <li class="three" style="background-image:url(images/1.jpg)">
+                        <a href="https://317.is/new-yorker-magazine-theme/">
+                            
+                            <div class="ca-content">
+                                <h2 class="ca-main">Temporibus autem quibusdam</h2>
+                                <h3 class="ca-sub">Temporibus autem quibusdam</h3>
+                            </div>
+                            <span class="ca-icon">At vero eos et accusamus</span>
+<div class="crong"></div>
+                        </a>
+                    </li>
+                  
+                    
+
+                    <li class="four" style="background-image:url(images/1.jpg)">
+                        <a href="https://317.is/new-yorker-magazine-theme/">
+                            
+                            <div class="ca-content">
+                                <h2 class="ca-main">Temporibus autem quibusdam</h2>
+                                <h3 class="ca-sub">Temporibus autem quibusdam</h3>
+                            </div>
+                            <span class="ca-icon">At vero eos et accusamus</span>
+<div class="crong"></div>
+                        </a>
+                    </li>
+                  
+                    
+</ul>
+
+</div>
+
+<div class="col4">
+		        
+<div class="orlando">Sed ut perspiciatis </div>
+
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >De finibus bonorum et malorum</a></h4>
+<div class="entry">
+
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+
+</div>
+
+<div class="col5">
+		        
+<div class="orlando">Sed ut perspiciatis </div>
+
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >De finibus bonorum et malorum</a></h4>
+<div class="entry">
+
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+
+</div>
+
+<div class="col6">
+		        
+<div class="orlando">Sed ut perspiciatis </div>
+
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >De finibus bonorum et malorum</a></h4>
+<div class="entry">
+
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+
+</div>
+
+<div class="col7">
+		        
+<div class="orlando">Sed ut perspiciatis </div>
+
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >De finibus bonorum et malorum</a></h4>
+<div class="entry">
+
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+
+</div>
+<div class="ren"></div>
+
+<div id="middle">
+
+<div class="sl"></div>
+
+
+<div class="florida">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12  | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div id="lbar">
+
+<div class="sl"></div>
+		        
+<div class="orlando">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12  | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div id="lrbar">
+
+<div class="sl"></div>
+
+<div class="orlando">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12 | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div class="ren"></div><div class="ren"></div>
+
+<div class="hen"><h2>Most Shared</h2></div>
+
+
+
+<div id="teaser">
+
+<div class="wrap animated fadeInLeftBig">
+
+ 	
+
+<div class="entry">
+
+<div class="msentry"><b>De finibus bonorum</b>  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</div>
+
+</div>
+
+<h2><a href="https://317.is/new-yorker-magazine-theme/" >De finibus bonorum et malorum</a></h2>
+
+
+
+<div class="entry">
+
+<div class="sentry"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="featured">
+  		
+<div id="slider1" class="sliderwrapper">
+
+
+                
+<div class="contentdiv"> 
+
+<div class="h-f" style="background-image:url(images/1.jpg)"></div>
+<div class="cis">
+<div class="h-t">
+<div class="ctitle">Sed ut perspiciatis</div>
+<h1><a href="https://317.is/new-yorker-magazine-theme/">De finibus bonorum et malorum</a></h1>
+<div itemprop="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti</div>
+</div>
+<span class="hdate">12<span class="hbigdate">12</span></span>
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+ 
+
+</div> 
+               
+                       
+                
+<div id="paginate-slider1" class="pagination"></div>
+
+</div>
+
+</div>
+<div id="featured">
+  		
+<div id="slider1" class="sliderwrapper">
+
+
+                
+<div class="contentdiv"> 
+
+<div class="h-f" style="background-image:url(images/1.jpg)"></div>
+<div class="cis">
+<div class="h-t">
+<div class="ctitle">Sed ut perspiciatis</div>
+<h1><a href="https://317.is/new-yorker-magazine-theme/">De finibus bonorum et malorum</a></h1>
+<div itemprop="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti</div>
+</div>
+<span class="hdate">12<span class="hbigdate">12</span></span>
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+ 
+
+</div> 
+               
+                       
+                
+<div id="paginate-slider1" class="pagination"></div>
+
+</div>
+
+</div>
+
+<div id="middle">
+
+<div class="sl"></div>
+
+
+<div class="florida">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12  | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div id="lbar">
+
+<div class="sl"></div>
+		        
+<div class="orlando">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12  | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div id="lrbar">
+
+<div class="sl"></div>
+
+<div class="orlando">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12 | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div class="ren"></div><div class="ren"></div>
+<div class="hen"><h2>Most Read</h2></div>
+<div class="ren"></div>
+<div id="steaser">
+<div class="wrap animated fadeInLeftBig">
+
+<div class="rap animated fadeInLeftBig">
+<span>1.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >Temporibus autem quibusdam</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="rap animated fadeInLeftBig">
+<span>2.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >Nam liber tempor cum soluta nobis</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="rap animated fadeInLeftBig">
+<span>3.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >At vero eos et accusam et justo duo</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="rap animated fadeInLeftBig">
+<span>4.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >Stet clita ea et gubergren</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+<div class="rap animated fadeInLeftBig">
+<span>5.</span><h2><a href="https://317.is/new-yorker-magazine-theme/" >Duis autem vel eum iriure dolor</a></h2>
+<div class="hc">{ <em>on 12.12.12 | in: Sed ut perspiciatis</em> }</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="wrap">
+<div id="middle">
+
+<div class="sl"></div>
+
+
+<div class="florida">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12  | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div id="lbar">
+
+<div class="sl"></div>
+		        
+<div class="orlando">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12  | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+
+<div id="lrbar">
+
+<div class="sl"></div>
+
+<div class="orlando">De finibus bonorum</div>
+<div class="entry">
+
+
+<div class="hg" style="background-image:url(images/1.jpg)">
+<a href="https://317.is/new-yorker-magazine-theme/"></a>
+</div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+<div class="hc">{ <em>on 12.12.12 | in: De finibus bonorum</em> }</div>
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<div id="footer">
+
+
+<div class="wraps">
+<div class="finner">
+
+
+
+<div class="col4">
+
+
+
+
+
+<h3>Topi<span>cs</span></h3>
+
+<div class="cats">
+
+<ul>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li>
+</ul>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+<div class="col5">
+
+
+
+
+<h3>Page<span>s</span></h3>
+<div class="cats">
+<ul>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li>
+</ul>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="col6">
+
+
+
+
+
+<h3>Pop<span>ular</span></h3>
+
+
+<div class="cats">
+<ul id="popular-comments">
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li>
+</ul>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="col7">
+
+
+
+
+<h3>Archi<span>ves</span></h3>
+
+<div class="cats">
+
+<ul>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li>
+</ul>
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+<div class="clearfix"></div>
+
+
+
+<div class="credits">
+
+<div class="finner">
+
+
+
+<div class="navbarf">
+
+<ul id="fn" >
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/"><img  loading="lazy" src="images/favicon.ico" alt="NewYorker" width="20px" /></a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li>
+</ul>  
+
+</div>
+
+
+
+<div class="clearfix"></div><hr class="clear" />
+
+
+
+<h1 class="clearfix">New Yorker</h1>
+
+
+
+<div class="clearfix"></div><hr class="clear" />
+
+
+
+<div class="creditsl">
+
+Copyright &copy; <script>document.write(new Date().getFullYear());</script> NewYorker<br />
+
+<a class="no-link" href="https://317.is/">Website design by milo</a>
+
+<br /><div id="gnavigation" style="font-size:10px"> 
+
+<span >
+
+<span >
+
+<a class="sh" href="https://317.is">Home</a> 
+
+<span ><a href="https://317.is/new-yorker-magazine-theme/" >Theme</a> <span>NewYorker theme</span>
+
+</span>
+
+</span>
+
+</span>
+
+</div>
+
+</div>
+
+
+
+<div class="creditsr">
+
+<p>Get updates <br />via <a href="https://317.is/new-yorker-magazine-theme/" class="rss">Email</a></p>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="overlays overlay-contentscale">
+
+<button type="button" class="overlay-close">Close</button>
+
+<h1><img loading="lazy" src="images/favicon.ico" alt="sport" width="20px" /></h1>
+
+<div class="navi">
+
+<ul id="sfn" >
+<h4>News</h4>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li>  
+</ul>
+<ul id="sfn" >
+<h4>Politics</h4>    
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li> 
+</ul>
+<ul id="sfn" >
+ <h4>London</h4>   
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li>
+</ul>
+<ul id="sfn" >
+ <h4>Pampelmouse</h4>   
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li> 
+</ul>
+<ul id="sfn" >
+<h4>Swordfish</h4>    
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">News</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Sport</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Business</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Money</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Culture</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Insider</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">Politics</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Health</a></li><li class=""><a href="https://317.is/new-yorker-magazine-theme/">Education</a></li>
+<li class=""><a href="https://317.is/new-yorker-magazine-theme/">London</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<script defer src="js/classie.js"></script> 
+<script defer src="js/demo7.js"></script> 
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">$(document).ready(function(){var a=function(){return $(document).height()-$(window).height()},b=function(){return $(window).scrollTop()};if("max"in document.createElement("progress")){var c=$("progress");c.attr({max:a()}),$(document).on("scroll",function(){c.attr({value:b()})}),$(window).resize(function(){c.attr({max:a(),value:b()})})}else{var e,f,c=$(".progress-bar"),d=a(),g=function(){return e=b(),f=e/d*100,f+="%"},h=function(){c.css({width:g()})};$(document).on("scroll",h),$(window).on("resize",function(){d=a(),h()})}}),$(document).ready(function(){$("#flat").addClass("active"),$("#progressBar").addClass("flat"),$("#flat").on("click",function(){$("#progressBar").removeClass().addClass("flat"),$(this).preventDefault()}),$("#single").on("click",function(){$("#progressBar").removeClass().addClass("single"),$(this).preventDefault()}),$("#multiple").on("click",function(){$("#progressBar").removeClass().addClass("multiple"),$(this).preventDefault()}),$("#semantic").on("click",function(){$("#progressBar").removeClass().addClass("semantic"),$(this).preventDefault(),alert("hello")}),$(document).on("scroll",function(){maxAttr=$("#progressBar").attr("max"),valueAttr=$("#progressBar").attr("value"),percentage=valueAttr/maxAttr*100,percentage<49?(document.styleSheets[0].addRule(".semantic","color: blue"),document.styleSheets[0].addRule(".semantic::-webkit-progress-value","background-color: blue"),document.styleSheets[0].addRule(".semantic::-moz-progress-bar","background-color: blue")):percentage<98?(document.styleSheets[0].addRule(".semantic","color: blue"),document.styleSheets[0].addRule(".semantic::-webkit-progress-value","background-color: blue"),document.styleSheets[0].addRule(".semantic::-moz-progress-bar","background-color: blue")):(document.styleSheets[0].addRule(".semantic","color: blue"),document.styleSheets[0].addRule(".semantic::-webkit-progress-value","background-color: blue"),document.styleSheets[0].addRule(".semantic::-moz-progress-bar","background-color: blue"))})});</script>
+
+<script type="text/javascript">
+var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="images/nav.jpg" style="filter:alpha(opacity=70); -moz-opacity:0.7;" width="72" height="72" />',controlattrs:{offsetx:0,offsety:40},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var a=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);a="string"==typeof a&&1==jQuery("#"+a).length?jQuery("#"+a).offset().top:0,this.$body.animate({scrollTop:a},this.setting.scrollduration)},keepfixed:function(){var a=jQuery(window),b=a.scrollLeft()+a.width()-this.$control.width()-this.controlattrs.offsetx,c=a.scrollTop()+a.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:b+"px",top:c+"px"})},togglecontrol:function(){var a=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=a>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(a){var b=scrolltotop,c=document.all;b.cssfixedsupport=!c||c&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,b.$body=a(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),b.$control=a('<div id="topcontrol">'+b.controlHTML+"</div>").css({position:b.cssfixedsupport?"fixed":"absolute",bottom:b.controlattrs.offsety,right:b.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"back to top"}).click(function(){return b.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=b.$control.text()&&b.$control.css({width:b.$control.width()}),b.togglecontrol(),a('a[href="'+b.anchorkeyword+'"]').click(function(){return b.scrollup(),!1}),a(window).bind("scroll resize",function(){b.togglecontrol()})})}};scrolltotop.init();
+</script>
+
+<script type="text/javascript">
+    var windowWidth,lazyLink,lazyImages,lazyBackground,lazyIframe,lazyScripts,navigator_platform,lazyLoadedJS,src,style,datasrc,urls,analytics,s,x,i,j,flag;
+    function init(){flag&&(flag=0,lazyLoadImg(),lazyLoadBackground(),lazyLoadIframe(),load_all_js())}
+    function isElementInViewport(t){var a=t.getBoundingClientRect();return a.top>=0&&a.left>=0&&a.bottom<=(window.innerHeight||document.documentElement.clientHeight)&&a.right<=(window.innerWidth||document.documentElement.clientWidth)}
+    function lazyLoadLink(){
+      lazyLink.forEach(function(t){
+        t.href=null==t.dataset.href?t.href:t.dataset.href
+      })
+    }
+    function lazyLoadImg(){
+      lazyImages.forEach(function(t){
+        null!=(src=windowWidth<600?null==t.dataset.mobsrc?t.dataset.src:t.dataset.mobsrc:t.dataset.src)&&(t.src=src),t.classList.remove("lazy2")
+      })
+    }
+    function lazyLoadImg2(){
+      lazyImages.forEach(function(t){
+        isElementInViewport(t)&&(null!=(src=windowWidth<600?null==t.dataset.mobsrc?t.dataset.src:t.dataset.mobsrc:t.dataset.src)&&(t.src=src),t.classList.remove("lazy"))
+      })
+    }
+    function lazyLoadBackground(){
+      lazyBackground.forEach(function(t){
+        lazybg=windowWidth<600?null==t.dataset.mobstyle?t.dataset.style:t.dataset.mobstyle:t.dataset.style,null!=lazybg&&(t.style=lazybg),t.classList.remove("lazybg")
+      })
+    }
+    function lazyLoadIframe(){
+      lazyIframe.forEach(function(t){
+        t.src=null==t.dataset.src?t.src:t.dataset.src
+      })
+    }
+    function lazyLoadScripts(){
+      j!=lazyScripts.length&&("lazyload2"==lazyScripts[j].getAttribute("type")?(lazyScripts[j].setAttribute("type","lazyloaded"),void 0!==lazyScripts[j].dataset.src?((s=document.createElement("script")).src=lazyScripts[j].dataset.src,document.body.appendChild(s),s.onload=function(){j++,lazyLoadScripts()}):((s=document.createElement("script")).innerHTML=lazyScripts[j].innerHTML,document.body.appendChild(s),j++,lazyLoadScripts())):(j++,lazyLoadScripts()))
+    }
+    function lazyLoadCss(t){
+      (s=document.createElement("link")).rel="stylesheet",s.href=t,document.getElementsByTagName("head")[0].appendChild(s)
+    }
+    function lazyLoadJS(t){
+      if(lazyLoadedJS)return setTimeout(function(){lazyLoadJS(t)},200),!1;lazyLoadedJS=1,(s=document.createElement("script")).src=t,s.onload=function(){lazyLoadedJS=0},document.body.appendChild(s)
+    }
+    document.addEventListener("DOMContentLoaded",function(){windowWidth=screen.width,lazyLink=document.querySelectorAll("link"),lazyImages=document.querySelectorAll("img.lazy2"),nolazyImages=document.querySelectorAll("img.lazy"),lazyBackground=document.querySelectorAll(".lazybg"),lazyIframe=document.querySelectorAll("iframe"),lazyScripts=document.getElementsByTagName("script"),navigator_platform=navigator.platform,i=0,j=0,flag=1,window.addEventListener("scroll",function(){init()}),window.addEventListener("mousemove",function(){init()}),window.addEventListener("touchstart",function(){init()}),"Linux x86_64"!=navigator_platform&&init(),setTimeout(function(){init()},60000)});
+
+    function load_all_js() {
+
+      console.log("Yes-optimization");
+      setTimeout(function() {
+        const wnw_load = new Event('wnw_load');
+        window.dispatchEvent(wnw_load);
+      }, 100);
+
+      lazyLink=document.querySelectorAll("link");
+      lazyLoadLink();
+
+      j=0;
+      lazyScripts = document.getElementsByTagName("script");
+      lazyLoadScripts();
+    }
+</script>
+
+<script type="text/javascript">
+var sc_project=10083575; 
+var sc_invisible=1; 
+var sc_security="7e6370bf"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "https://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a href="https://statcounter.com/free-web-stats/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/10083575/0/7e6370bf/1/" alt="milo statistics"></a></div></noscript>
+
+</body>
+</html>

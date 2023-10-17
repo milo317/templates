@@ -1,0 +1,16 @@
+#Gzip
+<ifmodule mod_deflate.c>
+<ifmodule mod_mime.c>   #Checks if your server supports Addtype
+Addtype font/opentype .otf
+Addtype font/eot .eot
+Addtype font/truetype .ttf
+</ifmodule>
+AddOutputFilterByType DEFLATE font/opentype font/truetype font/eot
+</ifmodule>
+#End Gzip
+
+# compress text, html, javascript, css, xml:
+AddType x-font/otf .otf
+AddType x-font/ttf .ttf
+AddType x-font/eot .eot
+AddType x-font/woff .woff
