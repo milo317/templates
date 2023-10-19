@@ -1,5 +1,6 @@
-# templates
+# milo317 templates
 
-some projects + themes
+some previous projects + wp themes + templates
 made with ♥ + 💀.
  
+
