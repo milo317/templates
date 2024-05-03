@@ -2,7 +2,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />	
 
-<title>The BlogTimes Oldschool Newspaper theme</title>
+<title>Times Oldschool Newspaper theme</title>
 
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 <link rel="shortcut icon" type="image/ico" href="images/fav.png" />
@@ -20,6 +20,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 h2, h1, h3, h4, h5,h2 a, h1 a, h3 a, h4 a, h5 a{
     margin: 10px auto;
     padding: 10px 0;
@@ -105,13 +106,19 @@ h2 a:hover, h3 a:hover, h4 a:hover, a, a:visited,.macky,
 #footer {
     height: 162px;
 }
-#header {overflow:hidden;height:225px;
- background: transparent url(images/grey.webp) no-repeat 50% 65%;
+#header {
+    overflow: hidden;
+    height: 225px;
+    background: #f9f9f9 url(images/grey.webp) no-repeat 180% 65%;
 }
-.head h1, .head h1 a {
-    margin: 0 auto;
-    padding:24px 0 0 0;
+.head h1 a {
+    margin: 0;text-align: left;
+    padding: 44px 0 0 0;
         -webkit-text-stroke: 1px rgb(255, 255, 255, 0.6);
+}
+.description {
+    margin: 5px 0;
+    text-align:left;
 }
 .fleft h2 a {
     width: 100%;
@@ -140,12 +147,35 @@ h2 a:hover, h3 a:hover, h4 a:hover, a, a:visited,.macky,
 .lead,img{opacity:.6;}
 .lead:hover,img:hover{opacity:.9;}
 
+@media only screen and (max-width: 1024px), (min-device-width: 1024px) and (max-device-width: 1024px){
+.f1, .f2, .f3, .f4, .lead {
+    float: left;
+    clear: both;
+    width: 29%;
+    border: 0;
+    height: 180px;
+    overflow: hidden;
+    margin: 0 auto 3px;
+    padding: 0;
+    text-align: center;
+}
+.ft .f1 a img, .ft .f2 a img, .ft .f3 a img, .ft .f4 a img, .ft .lead a img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: auto;
+    height: 70px;
+    text-align: left;
+    display: block;
+}
+}
+
 @media only screen and (max-width: 800px), (min-device-width: 800px) and (max-device-width: 800px){
 
 #header {
     overflow: hidden;
     height: 205px;
-    background: transparent url(images/grey.webp) no-repeat 50% 65%;
+
     border-bottom: 6px double #2f2f2f;
 }
 .xtow2 button {
@@ -219,7 +249,7 @@ h2 a:hover, h3 a:hover, h4 a:hover, a, a:visited,.macky,
 
 <div class="de">{ &#183;Established 1917&#183; }</div>
 
-<h1><a href="/">BlogTimes</a></h1>
+<h1><a href="/">Times</a></h1>
 
 <div class="description">Oldschool Newspaper theme with clean grid design</div>
 
@@ -854,24 +884,24 @@ Duis autem vel eum iriure dolor in hendrerit
 <li><a title="Stet clita kasd gubergren" href="">Stet clita kasd gubergren</a></li></ul>
 </div>
 
-<p>Copyright &copy; <script>document.write(new Date().getFullYear());</script>  &#1055;&#1056;&#1040;&#1042;&#1044;&#1040; | 
+<p>Copyright &copy; 2024 Times Theme | 
 <a href="#header" title="Jump to Page Top">Top &#8657;</a> | <a class="no-link" href="https://317.is/">Website design by milo</a></p>
 <p id="gnavigation" style="font-size:10px"> 
 <span >
 <span >
 <a class="sh"  href="https://317.is">Home</a> 
-<span  ><a   href="https://317.is/times-theme/" >Theme</a> <span>BlogTimes theme</span>
+<span  ><a   href="https://317.is/times-theme/" >Theme</a> <span>Times theme</span>
 </span>
 </span>
 </span>
 </p>
 
-<img src="images/grey.webp" alt="BlogTimes theme" />
+<img src="images/grey.webp" alt="Times theme" />
 </div>
 
 <div class="overlays overlay-contentscale">
 <button type="button" class="overlay-close">Close</button>
-<img src="images/grey.webp" alt="BlogTimes theme" width="300px" />
+<img src="images/grey.webp" alt="Times theme" width="300px" />
 <div class="navi">
 <ul id="onav">
 <li class="current_page_item"><a href="">Home</a></li>
