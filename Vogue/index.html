@@ -1,48 +1,122 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
+<!DOCTYPE html>
 <html xmlns="https://www.w3.org/1999/xhtml">
-
 <head profile="https://gmpg.org/xfn/11">
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />	
 
-
-
 <title>Vogue Shopify theme Grid based, responsive layout</title>
-
-
-
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-
-
-
 <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
-
 
 <script src="js/modernizr.js" type="text/javascript"></script>
 
-
 <style type="text/css">
 .cd-nav .cd-primary-nav a {font-size: 24px!important}
+.mobi {display:block;list-style:none;float:right;display:block;
+      margin:10px 0;padding:0;}
+.mobi li{display:block;list-style:none;float:left;margin:0;padding:0 10px 0 0;}
 
-  .mobi {display:block;list-style:none;float:right;display:block;
-      margin:10px 0;padding:0;
-  }
-    .mobi li{display:block;list-style:none;float:left;margin:0;padding:0 10px 0 0;}
+.acol {display:block;list-style:none;float:left;display:block;
+      margin:10px 1% 10px 0;padding:0;width:24%;min-height:150px;height:auto;}
+.bcol {display:block;list-style:none;display:block;
+      margin:0 0 20px 0;padding:0;width:100%;height:250px;
+background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 0 solid transparent;
+    background-attachment: fixed !important;    
+}  
+#xfooter #logo h1, #xfooter #logo h1 a{
+    background: #000;}
+#xfooter {
+    background: #000;
+    font: normal 16px raleway,arial, helvetica;
+}
+#xfooter ul {
+    margin: 10px 0;
+    text-align: left;
+    padding: 6px 0;
+    color: #fff;
+    display: block;
+}
+#xfooter ul li, #xfooter ul li a {
+    color: #fff;
+    display: block;
+}
+#xfooter h4,#xfooter  h5 {
+    color: #ccc;
+}
+#xfooter .post-cat {
+    clear: both;
+    display: inline-block;
+    width: auto;
+    padding: 20px 0 50px 0;
+    font: 200 44px 'Didot LT Std', times new roman, baskerville, georgia, serif;
+    letter-spacing: -1px;
+    color: #fff;
+    border-top: 5px solid #fff;
+    text-align: left;
+}
 
-@media only screen and (max-width: 750px), (max-device-width: 750px) and (min-device-width: 750px){
+.post-ccc { font-weight:700;   color: #111;}
+.post-cccc {    font: 500 15px 'times new roman',georgia,baskerville;
+    color: #111;}
+.breaks.one .col3 h1 a {
+    font-style:normal;
+}
+.post-cat {    padding: 0px 0 30px 0;}
 
+#logo {
+    display: block;float:left;
+    width:280px;
+    margin: 0;
+    padding: 50px 0 0 0;
+}
+.xmainmenu {
+    background: #fff;
+    display: block;
+    margin: 0;
+    padding: 45px 0 0 0;
+    font: 700 14px 'Raleway', helvetica, arial, verdana;
+    text-transform: uppercase;
+    z-index: 999 !important;
+    width: 70%;
+    overflow: hidden;
+    float:right;
+    clear: none;
+}
+.mobi {
+    position:absolute;top:0;right:0;
+    margin: 10px 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1200px), (max-device-width: 1200px) and (min-device-width: 1200px){
+.xmainmenu {
+    background: #fff;
+    display: block;
+    margin: 0;
+    padding: 0px 0 0 0;
+    font: 700 14px 'Raleway', helvetica, arial, verdana;
+    text-transform: uppercase;
+    z-index: 999 !important;
+    width: 100%;
+    overflow: hidden;
+    float:left;
+    clear:both;
+}
     }
     
-    @media only screen and (max-width: 750px), (min-device-width: 750px) and (max-device-width: 750px) {
+@media only screen and (max-width: 750px), (min-device-width: 750px) and (max-device-width: 750px) {
+.cd-nav-trigger {
+    left: 85% !important;
+}    
 #smain, .padder, .bpbreak {    margin: 0;    padding: 2px 0 0 0 !important;}
 .breaks {    margin: 2px 0 150px 0;}
+.acol {display:block;list-style:none;float:none;
+      margin:10px 0;padding:0;width:100%;min-height:150px;height:auto;}
 }
 </style>
-
-
 
 </head>
 
@@ -64,19 +138,17 @@
 
 <div id="logo"><h1 itemprop="headline"><a href="https://317.is/vogue-template/">Vogue</a></h1></div>
 
-<h2 itemprop="description" style="display:none;">Vogue shop theme Grid based, responsive layout</h2>
-
-
-
 <div class="xmainmenu">
-
 <div class="menu-header" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
 
 <ul id="top-nav" >
-<li>
-<a href="">Fashion</a></li>
+<li><a href="">Fashion</a></li>
 <li><a href="">Beauty</a></li><li><a href="">Art & Lifestyle</a></li><li><a href="">Runway</a></li><li><a href="">News</a></li><li><a href="">Video</a></li>
+<li><a href="">Business</a></li><li><a href="">Culture</a></li><li><a href="">Living</a></li>
 </ul> 
+
+</div>
+</div>
 
 <div class="mobi">
 <ul>
@@ -91,46 +163,10 @@
         <path d="M3 1h14l1 16H2L3 1z" fill="none" stroke="currentColor" stroke-width="2"></path>
         <path d="M7 4v0a3 3 0 003 3v0a3 3 0 003-3v0" fill="none" stroke="currentColor" stroke-width="2"></path>
       </svg><cart-count class="header__cart-count header__cart-count--floating bubble-count">0</cart-count></a></li>
-      </ul></div>
-      
+      </ul>
+      </div>
 </div>
 
-</div>
-
-</div>
-
-<a href="#cd-nav" class="cd-nav-trigger">Menu 
-		<span class="cd-nav-icon"></span>
-
-		<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
-			<circle fill="transparent" stroke="#656e79" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-		</svg>
-	</a>
-	
-	<div id="cd-nav" class="cd-nav">
-		<div class="cd-navigation-wrapper">
-			<div class="cd-half-block">
-				<h2>Navigation</h2>
-
-				<div class="pnav">
-<ul class="cd-primary-nav">
-<li class="current_page_item">
-<a href="">Home</a></li>
-<li><a href="">Lorem</a></li><li><a href="">Lorem</a></li><li><a href="">Lorem</a></li><li><a href="">Lorem</a></li><li><a href="">Lorem</a></li>
-
-</ul> 
-				</div>
-			</div><!-- .cd-half-block -->
-			
-			<div class="cd-half-block">
-				<address>
-					<ul class="cd-contact-info">
-						<li>Vogue shop theme Grid based, responsive layout</li>
-					</ul>
-				</address>
-			</div> <!-- .cd-half-block -->
-		</div> <!-- .cd-navigation-wrapper -->
-	</div> <!-- .cd-nav -->
 </div>
 
 </div>
@@ -192,7 +228,6 @@
 <div class="col2">
 <div class="hp">
 <a href="">
-
 <div itemscope itemtype='http://schema.org/ImageObject'><img itemprop="image" property="contentURL" src="images/1.webp" alt="Duis autem vel eum iriure dolor" /></div>
 </div>
 
@@ -203,7 +238,52 @@
 </div>
 </div>
 
+</div>
 
+
+<div class="breaks one">
+<div class="post-cat">Duis autem vel eum iriure dolor</div> 
+<div style="clear:both;display:block;width:100%;height:10px"></div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/3.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/3.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/3.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/3.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
 
 </div>
 
@@ -211,7 +291,7 @@
 <div class="breaks one">
 <div class="post-cat">Duis autem vel eum iriure dolor</div> 
 
-<div class="col" style="background-image:url(images/Celine-Clasp-Bag-Bobby-Doherty.webp)">
+<div class="col" style="background-image:url(images/VOGUE.webp)">
 <div class="hc5 view view-first" >
 <div class="hp">
 <a href="">
@@ -238,11 +318,56 @@
 </div>
 </div>
 
+<div class="breaks one">
+<div class="post-cat">Duis autem vel eum iriure dolor</div> 
+<div style="clear:both;display:block;width:100%;height:10px"></div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/vogue-1.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/vogue-1.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/vogue-1.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/vogue-1.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+</div>
 
 <div class="breaks one">
 <div class="post-cat">Duis autem vel eum iriure dolor</div> 
 
-<div class="col" style="background-image:url(images/Celine-Clasp-Bag-Bobby-Doherty.webp)">
+<div class="col" style="background-image:url(images/vogue-cover.webp)">
 <div class="hc5 view view-first" >
 <div class="hp">
 <a href="">
@@ -288,9 +413,6 @@
 </div>
 </div>
 
-
-
-
 <div class="col2">
 <div class="hp">
 <a href="">
@@ -321,22 +443,189 @@
 </div>
 </div>
 
+</div>
 
 
-
+<div class="breaks">
+<div class="post-cat">Bestsellers</div> 
+<div style="clear:both;width:100%;height:1px;display:block;"></div>
+<div class="col" style="background-image:url(images/4.webp)">
+<div class="shc5 sview sview-first" >
+<div class="hp">
+<a href=""></a>
 
 </div>
+
+<div class="smask">
+<div class="ssmask">
+<div class="spost-cccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="spost-ccccc">&#8364; 9.99</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div class="col2">
+<div class="hp">
+<a href="">
+
+<div itemscope itemtype='http://schema.org/ImageObject'><img itemprop="image" property="contentURL" src="images/3.webp" alt="Duis autem vel eum iriure dolor" /></div>
+</div>
+
+<div class="set">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="col3">
+<div class="hp">
+<a href="">
+
+<div itemscope itemtype='http://schema.org/ImageObject'><img itemprop="image" property="contentURL" src="images/2.webp" alt="Duis autem vel eum iriure dolor" /></div>
+</div>
+
+<div class="set">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="col2">
+<div class="hp">
+<a href="">
+<div itemscope itemtype='http://schema.org/ImageObject'><img itemprop="image" property="contentURL" src="images/1.webp" alt="Duis autem vel eum iriure dolor" /></div>
+</div>
+
+<div class="set">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="breaks one">
+<div class="post-cat">Duis autem vel eum iriure dolor</div> 
+<div style="clear:both;display:block;width:100%;height:10px"></div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/kate.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/kate.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/kate.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+<div class="acol"> 
+<div class="bcol" style="background-image:url(images/kate.webp)"></div>
+
+<div class="aset">
+<div class="post-ccc">Nam liber tempor</div>
+<h2><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></h2>
+<div class="post-cccc">&#8364; 9.99</div>
+</div>
+</div>
+
+</div>
+
+
 
 </div>
 </div>
 <div id="xfooter">
+
+<div class="wrapper">
+<div class="breaks one">
+<div class="post-cat">Duis autem vel eum iriure dolor</div> 
+<div style="clear:both;display:block;width:100%;height:10px"></div>
+
+<div class="acol"> 
+
+<h4>Duis autem vel</h4>
+<ul>    
+<li>Nam liber tempor</dli>
+<li><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></li>
+<li>Duis autem vel eum iriure dolor</li>
+<li>Duis autem vel eum iriure dolor</li>
+</ul>
+
+</div>
+
+<div class="acol"> 
+
+<h4>Duis autem vel</h4>
+<ul>    
+<li>Nam liber tempor</dli>
+<li><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></li>
+<li>Duis autem vel eum iriure dolor</li>
+<li>Duis autem vel eum iriure dolor</li>
+</ul>
+
+</div>
+
+<div class="acol"> 
+
+<h4>Duis autem vel</h4>
+<ul>    
+<li>Nam liber tempor</dli>
+<li><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></li>
+<li>Duis autem vel eum iriure dolor</li>
+<li>Duis autem vel eum iriure dolor</li>
+</ul>
+
+</div>
+
+<div class="acol"> 
+
+<h4>Duis autem vel</h4>
+<ul>    
+<li>Nam liber tempor</dli>
+<li><a href="" title="Duis autem vel eum iriure dolor">Duis autem vel eum iriure dolor</a></li>
+<li>Duis autem vel eum iriure dolor</li>
+<li>Duis autem vel eum iriure dolor</li>
+</ul>
+
+</div>
+
+</div>
+</div>
 
 <div id="logo"><h1 itemprop="headline"><a href="https://317.is/vogue-template/">Vogue </a></h1></div
 
 <div class="wrapper">
 
 <div class="clearfix"></div><hr class="clear" />
-<div class="milo"><p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Vogue theme | <a class="no-link" href="https://317.is/">Website design by milo</a>
+<div class="milo"><p>Copyright &copy; 2023 Vogue theme | <a class="no-link" href="https://317.is/">Website design by milo</a>
 
 <br /><div id="gnavigation" style="font-size:10px"> 
 <span >
@@ -357,7 +646,38 @@
 </div>
 </main>
 
+<a href="#cd-nav" class="cd-nav-trigger">Menu 
+		<span class="cd-nav-icon"></span>
 
+		<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
+			<circle fill="transparent" stroke="#656e79" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+		</svg>
+	</a>
+	
+	<div id="cd-nav" class="cd-nav">
+		<div class="cd-navigation-wrapper">
+			<div class="cd-half-block">
+				<h2>Navigation</h2>
+
+				<div class="pnav">
+<ul class="cd-primary-nav">
+<li class="current_page_item">
+<a href="">Home</a></li>
+<li><a href="">Lorem</a></li><li><a href="">Lorem</a></li><li><a href="">Lorem</a></li><li><a href="">Lorem</a></li><li><a href="">Lorem</a></li>
+
+</ul> 
+				</div>
+			</div><!-- .cd-half-block -->
+			
+			<div class="cd-half-block">
+				<address>
+					<ul class="cd-contact-info">
+						<li>Vogue shop theme Grid based, responsive layout</li>
+					</ul>
+				</address>
+			</div> <!-- .cd-half-block -->
+		</div> <!-- .cd-navigation-wrapper -->
+	</div> <!-- .cd-nav -->
   
 
 <script src="js/jquery-2.1.1.js" type="text/javascript"></script>
@@ -367,5 +687,18 @@
 var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="images/nav.jpg" style="filter:alpha(opacity=70); -moz-opacity:0.7;z-index:9999!important" width="72" height="72" />',controlattrs:{offsetx:0,offsety:40},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var a=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);a="string"==typeof a&&1==jQuery("#"+a).length?jQuery("#"+a).offset().top:0,this.$body.animate({scrollTop:a},this.setting.scrollduration)},keepfixed:function(){var a=jQuery(window),b=a.scrollLeft()+a.width()-this.$control.width()-this.controlattrs.offsetx,c=a.scrollTop()+a.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:b+"px",top:c+"px"})},togglecontrol:function(){var a=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=a>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(a){var b=scrolltotop,c=document.all;b.cssfixedsupport=!c||c&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,b.$body=a(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),b.$control=a('<div id="topcontrol">'+b.controlHTML+"</div>").css({position:b.cssfixedsupport?"fixed":"absolute",bottom:b.controlattrs.offsety,right:b.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"back to top"}).click(function(){return b.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=b.$control.text()&&b.$control.css({width:b.$control.width()}),b.togglecontrol(),a('a[href="'+b.anchorkeyword+'"]').click(function(){return b.scrollup(),!1}),a(window).bind("scroll resize",function(){b.togglecontrol()})})}};scrolltotop.init();
 </script>
 <script src="js/instant.js" type="text/javascript"></script>
+<script type="text/javascript">
+var sc_project=10083575; 
+var sc_invisible=1; 
+var sc_security="7e6370bf"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "https://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a href="https://statcounter.com/free-web-stats/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/10083575/0/7e6370bf/1/" alt="milo statistics"></a></div></noscript>
+
+
 </body>
 </html>

@@ -1,863 +1,1249 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js" >
+
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
 <head>
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Magazine theme with userfriendly Journal</title>
+   <meta charset="utf-8">
 
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+<title>Magazine Style HTML5 Template
+</title>
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="brand.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="brand.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="brand.png">
+   <link rel="stylesheet" href="css/base.css">
 
-<style>
-.hero__entry-image::before {
-  background: transparent!important;
-  opacity: 0.0;
-}
-.hero__slide::before {background-color: #fff;}
-.ss-home .s-header__branding a {
-  color: #333;
-}
-.bricks-wrapper .entry__more-link {
-  display: inline-block;
-  font-size: 1.1rem;
-  text-transform: uppercase;
-  letter-spacing: .15em;
-  color: green;padding:0 10px;
-  border: 1px solid green;
-}
-.bricks-wrapper .entry__more-link:hover {
-  color: #fff;background:green;
-  border: 1px solid green;
-}
-</style>
+   <link rel="stylesheet" href="css/vendor.css">  
+
+   <link rel="stylesheet" href="css/main.css">
+
+	<script src="js/modernizr.js"></script>
+
+	<script src="js/pace.min.js"></script>
+
+
+	<link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+
+	<link rel="icon" href="images/fav.png" type="image/x-icon">
+
+
 
 </head>
+
 
 
 <body id="top">
 
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+
+	<!-- header 
+
+   ================================================== -->
+
+   <header class="short-header">   
 
 
-    <!-- page wrap
-    ================================================== -->
-    <div id="page" class="s-pagewrap ss-home">
+
+   	<div class="gradient-block"></div>	
 
 
-        <!-- # site header 
-        ================================================== -->
-        <header id="masthead" class="s-header">
 
-            <div class="s-header__branding">
-                <p class="site-title">
-                    <a href="" rel="home"><img loading="lazy" src="brand.png" style="width:100px;margin-top:-15px;" alt="Et harum quidem rerum facilis" /></a>
-                </p>
-            </div>
-
-            <div class="row s-header__navigation">
-
-                <nav class="s-header__nav-wrap">
-    
-                    <h3 class="s-header__nav-heading">Navigate to</h3>
-    
-                    <ul class="s-header__nav">
-                        <li class="current-menu-item"><a href="" title="">Home</a></li>
-                        <li class="has-children">
-                            <a href="#0" title="" class="">Shop</a>
-                            <ul class="sub-menu">
-                                <li><a href="">Design</a></li>
-                                <li><a href="">Lifestyle</a></li>
-                                <li><a href="">Inspiration</a></li>
-                                <li><a href="">Work</a></li>
-                                <li><a href="">Health</a></li>
-                                <li><a href="">Photography</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#0" title="" class="">Blog</a>                            
-                        </li>
-                        <li><a href="" title="">About</a></li>
-                        <li><a href="" title="">Contact</a></li>
-                    </ul> <!-- end s-header__nav -->
-
-                </nav> <!-- end s-header__nav-wrap -->
-    
-            </div> <!-- end s-header__navigation -->
-
-            <div class="s-header__search">
-
-                <div class="s-header__search-inner">
-                    <div class="row">
-    
-                        <form role="search" method="get" class="s-header__search-form" action="#">
-                            <label>
-                                <span class="u-screen-reader-text">Search for:</span>
-                                <input type="search" class="s-header__search-field" placeholder="Search for..." value="" name="s" title="Search for:" autocomplete="off">
-                            </label>
-                            <input type="submit" class="s-header__search-submit" value="Search"> 
-                        </form>
-    
-                        <a href="#0" title="Close Search" class="s-header__search-close">Close</a>
-    
-                    </div> <!-- end row -->
-                </div> <!-- s-header__search-inner -->
-    
-            </div> <!-- end s-header__search -->
-
-            <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-            <a class="s-header__search-trigger" href="#">
-                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.25 19.25L15.5 15.5M4.75 11C4.75 7.54822 7.54822 4.75 11 4.75C14.4518 4.75 17.25 7.54822 17.25 11C17.25 14.4518 14.4518 17.25 11 17.25C7.54822 17.25 4.75 14.4518 4.75 11Z"></path>
-                </svg>
-            </a>
-
-        </header> <!-- end s-header -->
+   	<div class="row header-content">
 
 
-        <!-- # site-content
-        ================================================== -->
-        <section id="content" class="s-content">
+
+   		<div class="logo">
+
+	         <a href=""><img src="images/fav.png" style="width:35px" alt="Magazine Style HTML5 Template" /></a>
+
+	      </div>
 
 
-            <!-- hero -->
-            <div class="hero">
 
-                <div class="hero__slider swiper-container">
+	   	<nav id="main-nav-wrap">
 
-                    <div class="swiper-wrapper">
-                        <article class="hero__slide swiper-slide">
-                            <div class="hero__entry-image" style="background-image: url('images/thumbs/featured/featured-01_2000.jpg');"></div>
-                            <div class="hero__entry-text">
-                                <div class="hero__entry-text-inner">
-                                    <div class="hero__entry-meta">
-                                        <span class="cat-links">
-                                            <a href="">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h2 class="hero__entry-title">
-                                        <a href="">
-                                          Et harum quidem rerum facilis
-                                        </a>
-                                    </h2>
-                                    <p class="hero__entry-desc">
-                                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                    </p>
-                                    <a class="hero__more-link" href=""></a>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="hero__slide swiper-slide">
-                            <div class="hero__entry-image" style="background-image: url('images/thumbs/featured/featured-02_2000.jpg');"></div>
-                            <div class="hero__entry-text">
-                                <div class="hero__entry-text-inner">
-                                    <div class="hero__entry-meta">
-                                        <span class="cat-links">
-                                            <a href="">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h2 class="hero__entry-title">
-                                        <a href="">
-                                           Et harum quidem rerum facilis
-                                        </a>
-                                    </h2>
-                                    <p class="hero__entry-desc">
-                                   At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                    </p>
-                                    <a class="hero__more-link" href=""></a>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="hero__slide swiper-slide">
-                            <div class="hero__entry-image" style="background-image: url('images/thumbs/featured/featured-03_2000.jpg');"></div>
-                            <div class="hero__entry-text">
-                                <div class="hero__entry-text-inner">
-                                    <div class="hero__entry-meta">
-                                        <span class="cat-links">
-                                            <a href="">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h2 class="hero__entry-title">
-                                        <a href="">
-                                          Et harum quidem rerum facilis
-                                        </a>
-                                    </h2>
-                                    <p class="hero__entry-desc">
-                                  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                    </p>
-                                    <a class="hero__more-link" href=""></a>
-                                </div>
-                            </div>
-                        </article>
-                    </div> <!-- swiper-wrapper -->
+				<ul class="main-navigation sf-menu">
 
-                    <div class="swiper-pagination"></div>
-    
-                </div> <!-- end hero slider -->
-
-                <a href="#bricks" class="hero__scroll-down smoothscroll">
-                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.25 6.75L4.75 12L10.25 17.25"></path>
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.25 12H5"></path>
-                    </svg>
-                    <span>Scroll</span>
-                </a>
-
-            </div> <!-- end hero -->
+					<li class="current"><a href="l" title="">Home</a></li>									
 
 
-            <!--  masonry -->
-            <div id="bricks" class="bricks">
 
-                <div class="masonry">
+					<li class="has-children">
 
-                    <div class="bricks-wrapper" data-animate-block>
+						<a href="" title="">Blog</a>
 
-                        <div class="grid-sizer"></div>
+						<ul class="sub-menu">
 
-                        <article class="brick entry" data-animate-el>
-        
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                      <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-        
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Design</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                 </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                               <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                        
-                        </article> <!-- end article -->
+			            <li><a href="">Video </a></li>
 
-                        <article class="brick entry" data-animate-el>
-        
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                    <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-        
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Lifestyle</a>
-                                        </span>
-                                        <span class="post-date">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                        
-                        </article> <!-- end article -->
+			            <li><a href="">Audio </a></li>
 
-                        <article class="brick entry" data-animate-el>
+			            <li><a href="">Gallery</a></li>
+
+
+
+			         </ul>
+
+					</li>
+
+		
+
+					<li><a href="l" title="">About</a></li>	
+
+					<li><a href="" title="">Contact</a></li>										
+
+				</ul>
+
+			</nav> <!-- end main-nav-wrap -->
+
+
+
+			<div class="search-wrap">
+
+				
+
+				<form role="search" method="get" class="search-form" action="#">
+
+					<label>
+
+						<span class="hide-content">Search for:</span>
+
+						<input type="search" class="search-field" placeholder="Type Your Keywords" value="" name="s" title="Search for:" autocomplete="off">
+
+					</label>
+
+					<input type="submit" class="search-submit" value="Search">
+
+				</form>
+
+
+
+				<a href="#" id="close-search" class="close-btn">Close</a>
+
+
+
+			</div> <!-- end search wrap -->	
+
+
+
+			<div class="triggers">
+
+				<a class="search-trigger" href="#"><i class="fa fa-search"></i></a>
+
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+			</div> <!-- end triggers -->	
+
+   		
+
+   	</div>     		
+
+   	
+
+   </header> <!-- end header -->
+
+
+
+
+
+   <!-- masonry
+
+   ================================================== -->
+
+   <section id="bricks">
+
+
+
+   	<div class="row masonry">
+
+
+
+   		<!-- brick-wrapper -->
+
+         <div class="bricks-wrapper">
+
+
+
+         	<div class="grid-sizer"></div>
+
+
+
+         	<div class="brick entry featured-grid animate-this">
+
+         		<div class="entry-content">
+
+         			<div id="featured-post-slider" class="flexslider">
+
+			   			<ul class="slides">
+
+
+
+				   			<li>
+
+				   				<div class="featured-post-slide">
+
+
+
+						   			<div class="post-background" style="background-image:url('images/thumbs/featured/featured-1.jpg');"></div>
+
+
+
+								   	<div class="overlay"></div>			   		
+
+
+
+								   	<div class="post-content">
+
+								   		<ul class="entry-meta">
+
+												<li>March 27th, 2017</li> 
+
+												<li><a href="#" >Mizuno Azumaki</a></li>				
+
+											</ul>	
+
+
+
+								   		<h1 class="slide-title"><a href="" title="">Groucho Post</a></h1> 
+
+								   	</div> 				   					  
+
+				   			
+
+				   				</div>
+
+				   			</li> <!-- /slide -->
+
+
+
+				   			<li>
+
+				   				<div class="featured-post-slide">
+
+
+
+						   			<div class="post-background" style="background-image:url('images/thumbs/featured/featured-2.jpg');"></div>
+
+
+
+								   	<div class="overlay"></div>			   		
+
+
+
+								   	<div class="post-content">
+
+								   		<ul class="entry-meta">
+
+												<li>March 27th, 2017</li>
+
+												<li><a href="#">Mizuno Suchiha</a></li>					
+
+											</ul>	
+
+
+
+								   		<h1 class="slide-title"><a href="" title="">Groucho Post</a></h1>
+
+						   			</div>		   				   					  
+
+				   			
+
+				   				</div>
+
+				   			</li> <!-- /slide -->
+
+
+
+				   			<li>
+
+				   				<div class="featured-post-slide">
+
+
+
+						   			<div class="post-background" style="background-image:url('images/thumbs/featured/featured-3.jpg');;"></div>
+
+
+
+								   	<div class="overlay"></div>			   		
+
+
+
+								   	<div class="post-content">
+
+								   		<ul class="entry-meta">
+
+												<li>March 27th, 2017</li>
+
+												<li><a href="#" class="author">Mizuno Kuzumaki</a></li>					
+
+											</ul>	
+
+
+
+								   		<h1 class="slide-title"><a href="" title="">Groucho Post</a></h1>
+
+						   			</div>
+
+
+
+				   				</div>
+
+				   			</li> <!-- end slide -->
+
+
+
+				   		</ul> <!-- end slides -->
+
+				   	</div> <!-- end featured-post-slider -->        			
+
+         		</div> <!-- end entry content -->         		
+
+         	</div>
+
+
+
+         	<article class="brick entry format-standard animate-this">
+
+
+
+               <div class="entry-thumb">
+
+                  <a href="" class="thumb-link">
+
+	                  <img src="images/thumbs/diagonal-building.jpg" alt="building">             
+
+                  </a>
+
+               </div>
+
+
+
+               <div class="entry-text">
+
+               	<div class="entry-header">
+
+
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Design</a> 
+
+               				<a href="#">Photography</a>               				
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+
+
+        		</article> <!-- end article -->
+
+
+
+            <article class="brick entry format-standard animate-this">
+
+
+
+               <div class="entry-thumb">
+
+                  <a href="" class="thumb-link">
+
+	                  <img src="images/thumbs/ferris-wheel.jpg" alt="ferris wheel">                   
+
+                  </a>
+
+               </div>
+
+
+
+               <div class="entry-text">
+
+               	<div class="entry-header">
+
+
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Design</a> 
+
+               				<a href="#">UI</a>                			
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+               
+
+        		</article> <!-- end article -->
+
+
+
+            <!-- format audio here -->
+
+            <article class="brick entry format-audio animate-this">
+
+
+
+               <div class="entry-thumb">
+
+                  <a href="" class="thumb-link">
+
+	                  <img src="images/thumbs/concert.jpg" alt="concert">                      
+
+                  </a>
+
+
+
             
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                      <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-            
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Design</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                            
-                        </article> <!-- end article -->
 
-                        <article class="brick entry" data-animate-el>
-            
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                      <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-            
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Lifestyle</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                 </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-            
-                        </article> <!-- end entry -->
-        
-                        <article class="brick entry" data-animate-el>
-        
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                      <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div>  <!-- end entry__thumb -->
-        
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Health</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                        
-                        </article> <!-- end article -->
-
-                        
-
-                        <article class="brick entry" data-animate-el>
-        
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                     <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-        
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Work</a> 
-                                            <a href="#">Design</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                        
-                        </article> <!-- end article -->
-        
-                        <article class="brick entry" data-animate-el>
-                
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                     <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-                
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Lifestyle</a>
-                                            <a href="#">Work</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                                
-                        </article> <!-- end article -->
-        
-                        <article class="brick entry" data-animate-el>
-        
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                      <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-        
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Health</a>
-                                            <a href="#">Lifestyle</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Sakura Haruno</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                        
-                        </article> <!-- end article -->
-        
-                        <article class="brick entry" data-animate-el>
-        
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                      <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-        
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Design</a>
-                                            <a href="#">Photography</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                        
-                        </article> <!-- end article -->
-
-                        <article class="brick entry" data-animate-el>
-        
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                     <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-        
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Lifestyle</a>
-                                            <a href="#">Work</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                                   Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                        
-                        </article> <!-- end article -->
-
-                        
-
-                        <article class="brick entry" data-animate-el>
-        
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                     <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-        
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="">Dreamhost</a>
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href=""></a>
-                            </div> <!-- end entry__text -->
-                        
-                        </article> <!-- end article -->
-
-                        <article class="brick entry" data-animate-el>
-        
-                            <div class="entry__thumb">
-                                <a href="" class="thumb-link">
-                                       <img src="images/thumbs/masonry/beetle-600.jpg" 
-                                        srcset="images/thumbs/masonry/beetle-600.jpg 1x, images/thumbs/masonry/beetle-1200.jpg 2x" alt="Magazine theme with userfriendly Journal">
-                                </a>
-                            </div> <!-- end entry__thumb -->
-        
-                            <div class="entry__text">
-                                <div class="entry__header">
-                                    <div class="entry__meta">
-                                        <span class="cat-links">
-                                            <a href="#">Photography</a> 
-                                        </span>
-                                        <span class="byline">
-                                            By:
-                                            <a href="#0">Et harum quidem rerum facilis</a>
-                                        </span>
-                                    </div>
-                                    <h1 class="entry__title"><a href="">Et harum quidem rerum facilis</a></h1>
-                                </div>
-                                <div class="entry__excerpt">
-                                    <p>
-                                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <img loading="lazy" src="size.webp" style="width:2px" alt="size chart" />
-                                <a class="entry__more-link" href="#0"></a>
-                            </div> <!-- end entry__text -->
-                        
-                        </article> <!-- end article -->
-
-                    </div> <!-- end bricks-wrapper -->
-
-                </div> <!-- end masonry-->
+               </div>
 
 
-                <!-- pagination -->
-                <div class="row pagination">
-                    <div class="column lg-12">
-                        <nav class="pgn">
-                            <ul>
-                                <li>
-                                    <a class="pgn__prev" href="#0">
-                                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.25 6.75L4.75 12L10.25 17.25"></path>
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.25 12H5"></path>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li><a class="pgn__num" href="#0">1</a></li>
-                                <li><span class="pgn__num current">2</span></li>
-                                <li><a class="pgn__num" href="#0">3</a></li>
-                                <li><a class="pgn__num" href="#0">4</a></li>
-                                <li><a class="pgn__num" href="#0">5</a></li>
-                                <li><span class="pgn__num dots">…</span></li>
-                                <li><a class="pgn__num" href="#0">8</a></li>
-                                <li>
-                                    <a class="pgn__next" href="#0">
-                                        <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav> <!-- end pgn -->
-                    </div> <!-- end column -->
-                </div> <!-- end pagination -->
 
-            </div> <!-- end bricks -->
+               <div class="entry-text">
 
-        </section> <!-- end s-content -->
-
-<div class="row u-add-bottom">
-                
-                                <div class="column lg-12">
-                
-                                    <h3>Tables</h3>
-                                    <p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when building a <code>table</code>.</p>
-                
-                                    <div class="table-responsive">
-                
-                                        <table>
-                                                <thead>
-                                                <tr>
-                                                    <th>Name</th>
-                                                    <th>Age</th>
-                                                    <th>Sex</th>
-                                                    <th>Location</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td>William J. Seymour</td>
-                                                    <td>34</td>
-                                                    <td>Male</td>
-                                                    <td>Azusa Street</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Jennie Evans Moore</td>
-                                                    <td>30</td>
-                                                    <td>Female</td>
-                                                    <td>Azusa Street</td>
-                                                </tr>
-                                                </tbody>
-                                        </table>
-                
-                                    </div>
-                
-                                </div>
-                                
-                            </div> <!-- end row -->
-
-        <!-- # site-footer
-        ================================================== -->
-        <footer id="colophon" class="s-footer">
-
-            <div class="row s-footer__subscribe">
-                <div class="column lg-12">
-
-                    <h2>
-                    Subscribe to Our Newsletter.
-                    </h2>
-                    <p>
-                    Subscribe now to get all latest updates
-                    </p>
-
-                    <form id="mc-form" class="mc-form">
-                        <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Your Email Address" title="" required>
-                        <input type="submit" name="subscribe" value="Subscribe" class="btn--small btn--primary u-fullwidth">
-                        <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
-                        <div class="mc-status"></div>
-                    </form>
-
-                </div>
-            </div> <!-- end s-footer__subscribe -->
-
-            <div class="row s-footer__main">
-
-                <div class="column lg-5 md-6 tab-12 s-footer__about">
-                    <h4>Et harum quidem rerum facilis</h4>
-
-                    <p>
-                   Accessible and usable responsive HTML5 & CSS3 Shop Template with the unique features provided with the Et harum quidem rerum facilis HTML5 & CSS3 Shop Template.
-                    </p>
-                </div> <!-- end s-footer__about -->
-
-                <div class="column lg-5 md-6 tab-12">
-                    <div class="row">
-                        <div class="column lg-6">
-                            <h4>Shop</h4>
-                            <ul class="link-list">
-                                <li><a href="">Lifestyle</a></li>
-                                <li><a href="">Workplace</a></li>
-                                <li><a href="">Inspiration</a></li>
-                                <li><a href="">Design</a></li>
-                                <li><a href="">Health</a></li>
-                                <li><a href="">Photography</a></li>
-                            </ul>
-                        </div>
-                        <div class="column lg-6">
-                            <h4>Site Links</h4>
-                            <ul class="link-list">
-                                <li><a href="">Home</a></li>
-                                <li><a href="">Shop</a></li>
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">About</a></li>
-                                <li><a href="">Contact</a></li>
-                                <li><a href="#0">Terms & Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div> <!-- end s-footer__main -->
-
-            <div class="row s-footer__bottom">
-
-                <div class="column lg-7 md-6 tab-12">
-                    <ul class="s-footer__social">
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg>
-                                <span class="u-screen-reader-text">Facebook</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
-                                <span class="u-screen-reader-text">Twitter</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
-                                <span class="u-screen-reader-text">Instagram</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.99 2C6.472 2 2 6.473 2 11.99c0 4.232 2.633 7.85 6.35 9.306-.088-.79-.166-2.006.034-2.868.182-.78 1.172-4.966 1.172-4.966s-.299-.599-.299-1.484c0-1.388.805-2.425 1.808-2.425.853 0 1.264.64 1.264 1.407 0 .858-.546 2.139-.827 3.327-.235.994.499 1.805 1.479 1.805 1.775 0 3.141-1.872 3.141-4.575 0-2.392-1.719-4.064-4.173-4.064-2.843 0-4.512 2.132-4.512 4.335 0 .858.331 1.779.744 2.28a.3.3 0 0 1 .069.286c-.076.315-.245.994-.277 1.133-.044.183-.145.222-.335.134-1.247-.581-2.027-2.405-2.027-3.871 0-3.151 2.289-6.045 6.601-6.045 3.466 0 6.159 2.469 6.159 5.77 0 3.444-2.171 6.213-5.184 6.213-1.013 0-1.964-.525-2.29-1.146l-.623 2.374c-.225.868-.834 1.956-1.241 2.62a10 10 0 0 0 2.958.445c5.517 0 9.99-4.473 9.99-9.99S17.507 2 11.99 2"></path></svg>
-                                <span class="u-screen-reader-text">Pinterest</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column lg-5 md-6 tab-12">
-                    <div class="ss-copyright">
-                        <span>© Copyright <script>document.write(new Date().getFullYear());</script> Magazine theme with userfriendly Journal</span> 
-                        <span><a class="no-link" href="https://317.is/">Website design by milo</a>
-<br />
-<a class="sh"  href="https://317.is/">Home</a> 
-<a   href="https://317.is/magazine-style/" >Theme</a> <span>Magazine theme with userfriendly Journal</span></span>
-                    </div>
-                </div>
-
-            </div> <!-- end s-footer__bottom -->
-           
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top">
-                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.25 10.25L12 4.75L6.75 10.25"/>
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 19.25V5.75"/>
-                    </svg>
-                </a>
-            </div> <!-- end ss-go-top -->
-
-        </footer><!-- end s-footer -->
+               	<div class="entry-header">
 
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Design</a> 
+
+               				<a href="#">Music</a>                				
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+               
+
+        		</article> <!-- /article -->
+
+
+
+         	<article class="brick entry format-quote animate-this" >
+
+
+
+               <div class="entry-thumb">                  
+
+	               <blockquote>
+
+	                 	<p>Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.</p>
+
+
+
+	                 	<cite>Dieter Rams</cite> 
+
+	               </blockquote>	          
+
+               </div>   
+
+
+
+        		</article> <!-- end article -->
+
+
+
+         	<article class="brick entry animate-this">
+
+
+
+               <div class="entry-thumb">
+
+                  <a href="" class="thumb-link">
+
+	                  <img src="images/thumbs/shutterbug.jpg" alt="Shutterbug">                      
+
+                  </a>
+
+               </div>
+
+
+
+               <div class="entry-text">
+
+               	<div class="entry-header">
+
+
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Photography</a> 
+
+               				<a href="#">html</a>                				
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+               
+
+        		</article> <!-- end article -->
+
+
+
+            <article class="brick entry animate-this" >
+
+
+
+               <div class="entry-thumb">
+
+                  <a href="" class="thumb-link">
+
+	                  <img src="images/thumbs/usaf-rocket.jpg" alt="USAF rocket">                      
+
+                  </a>
+
+               </div>
+
+
+
+               <div class="entry-text">
+
+               	<div class="entry-header">
+
+
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Branding</a> 
+
+               				<a href="#">Mockup</a>               				
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+               
+
+        		</article> <!-- end article -->        	
+
+
+
+        		<article class="brick entry format-gallery group animate-this">
+
+
+
+               <div class="entry-thumb">
+
+
+
+                  <div class="post-slider flexslider">
+
+							<ul class="slides">
+
+								<li>
+
+									<img src="images/thumbs/gallery/work1.jpg"> 
+
+								</li>
+
+								<li>
+
+									<img src="images/thumbs/gallery/work2.jpg"> 
+
+								</li>
+
+								<li>
+
+									<img src="images/thumbs/gallery/work3.jpg"> 
+
+								</li>
+
+							</ul>							
+
+						</div> 
+
+
+
+               </div>
+
+
+
+               <div class="entry-text">
+
+               	<div class="entry-header">
+
+
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Branding</a> 
+
+               				<a href="#">Wordpress</a>               				
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+               
+
+        		</article> <!-- end article -->
+
+
+
+        		<article class="brick entry format-link animate-this">
+
+
+
+               <div class="entry-thumb">
+
+                  <div class="link-wrap">
+
+	                 	<p>Looking for affordable &amp; reliable Seo? We recommend Groucho Post.</p>
+
+	                 	<cite>
+
+	                 		<a target="_blank" href="https://google.com/">google.com</a>
+
+	                 	</cite>
+
+	               </div>	
+
+               </div>               
+
+               
+
+        		</article> <!-- end article -->
+
+
+
+
+
+         	<article class="brick entry animate-this">
+
+
+
+               <div class="entry-thumb">
+
+                  <a href="" class="thumb-link">
+
+	                  <img src="images/thumbs/diagonal-pattern.jpg" alt="Pattern">              
+
+                  </a>
+
+               </div>
+
+
+
+               <div class="entry-text">
+
+               	<div class="entry-header">
+
+
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Design</a> 
+
+               				<a href="#">UI</a>                			
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+               
+
+        		</article> <!-- end article -->
+
+
+
+        		<article class="brick entry format-video animate-this">
+
+
+
+               <div class="entry-thumb video-image">
+
+                  <a href="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39" data-lity>
+
+	                  <img src="images/thumbs/ottawa-bokeh.jpg" alt="bokeh">                   
+
+                  </a>
+
+               </div>
+
+
+
+               <div class="entry-text">
+
+               	<div class="entry-header">
+
+
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Design</a> 
+
+               				<a href="#">Branding</a>               			
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+               
+
+        		</article> <!-- end article -->
+
+
+
+        		<article class="brick entry animate-this">
+
+
+
+               <div class="entry-thumb">
+
+                  <a href="" class="thumb-link">
+
+	                  <img src="images/thumbs/lighthouse.jpg" alt="Groucho Post">                      
+
+                  </a>
+
+               </div>
+
+
+
+               <div class="entry-text">
+
+               	<div class="entry-header">
+
+
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Photography</a> 
+
+               				<a href="#">Design</a>
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+               
+
+        		</article> <!-- end article -->
+
+
+
+        		<article class="brick entry animate-this">
+
+
+
+               <div class="entry-thumb">
+
+                  <a href="" class="thumb-link">
+
+	                  <img src="images/thumbs/liberty.jpg" alt="Liberty">                      
+
+                  </a>
+
+               </div>
+
+
+
+               <div class="entry-text">
+
+               	<div class="entry-header">
+
+
+
+               		<div class="entry-meta">
+
+               			<span class="cat-links">
+
+               				<a href="#">Branding</a> 
+
+               				<a href="#">html</a>                	
+
+               			</span>			
+
+               		</div>
+
+
+
+               		<h1 class="entry-title"><a href="">Groucho Post</a></h1>
+
+               		
+
+               	</div>
+
+						<div class="entry-excerpt">
+
+							Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa in anim.
+
+						</div>
+
+               </div>
+
+               
+
+        		</article> <!-- end article -->
+
+
+
+         </div> <!-- end brick-wrapper --> 
+
+
+
+   	</div> <!-- end row -->
+
+
+
+   	<div class="row">
+
+   		
+
+   		<nav class="pagination">
+
+		      <span class="page-numbers prev inactive">Prev</span>
+
+		   	<span class="page-numbers current">1</span>
+
+		   	<a href="#" class="page-numbers">2</a>
+
+		      <a href="#" class="page-numbers">3</a>
+
+		      <a href="#" class="page-numbers">4</a>
+
+		      <a href="#" class="page-numbers">5</a>
+
+		      <a href="#" class="page-numbers">6</a>
+
+		      <a href="#" class="page-numbers">7</a>
+
+		      <a href="#" class="page-numbers">8</a>
+
+		      <a href="#" class="page-numbers">9</a>
+
+		   	<a href="#" class="page-numbers next">Next</a>
+
+	      </nav>
+
+
+
+   	</div>
+
+
+
+   </section> <!-- end bricks -->
+
+
+
+   
+
+   <!-- footer
+
+   ================================================== -->
+
+   <footer>
+
+
+
+   	<div class="footer-main">
+
+
+
+   		<div class="row">  
+
+
+
+	      	<div class="col-four tab-full mob-full footer-info">            
+
+
+
+	            <h4>About us</h4>
+
+
+
+	               <p>
+
+		          Innovative layout design inspired by Google Material Design, the Groucho theme is a userfriendly Wordpress template: a clean base starter kit for a range of magazine portal websites.
+
+             	</p>
+
+
+
+		      </div> <!-- end footer-info -->
+
+
+
+	      	<div class="col-two tab-1-3 mob-1-2 site-links">
+
+
+
+	      		<h4>Site Links</h4>
+
+
+
+	      		<ul>
+
+	      			<li><a href="#">About Us</a></li>
+
+						<li><a href="#">Blog</a></li>
+
+						<li><a href="#">FAQ</a></li>
+
+						<li><a href="#">Terms</a></li>
+
+						<li><a href="#">Privacy Policy</a></li>
+
+					</ul>
+
+
+
+	      	</div> <!-- end site-links -->  
+
+
+
+	      	<div class="col-two tab-1-3 mob-1-2 social-links">
+
+
+
+	      		<h4>Social</h4>
+
+
+
+	      		<ul>
+
+	      			<li><a href="#">Twitter</a></li>
+
+						<li><a href="#">Facebook</a></li>
+
+						<li><a href="#">Dribbble</a></li>
+
+						<li><a href="#">Google+</a></li>
+
+						<li><a href="#">Instagram</a></li>
+
+					</ul>
+
+	      	           	
+
+	      	</div> <!-- end social links --> 
+
+
+
+	      	<div class="col-four tab-1-3 mob-full footer-subscribe">
+
+
+
+	      		<h4>Subscribe</h4>
+
+
+
+	      		<p>Keep yourself updated. Subscribe to our newsletter.</p>
+
+
+
+	      		<div class="subscribe-form">
+
+	      	
+
+	      			<form id="mc-form" class="group" novalidate="true">
+
+
+
+							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="Type &amp; press enter" required=""> 
+
+	   		
+
+			   			<input type="submit" name="subscribe" >
+
+		   	
+
+		   				<label for="mc-email" class="subscribe-message"></label>
+
+			
+
+						</form>
+
+
+
+	      		</div>	      		
+
+	      	           	
+
+	      	</div> <!-- end subscribe -->         
+
+
+
+	      </div> <!-- end row -->
+
+
+
+   	</div> <!-- end footer-main -->
+
+
+
+      <div class="footer-bottom">
+
+      	<div class="row">
+
+
+
+      		<div class="col-twelve">
+
+	      		<div class="copyright">
+
+		         	<span>Magazine Style HTML5 Template &copy; <script>document.write(new Date().getFullYear());</script></span> 
+
+		         	<span><a class="no-link" href="https://317.is/magazine-style-theme/">Website design by milo</a></span>		         	
+
+		                         	<div id="gnavigation"> 
+
+<span >
+
+<span >
+
+<a class="sh"  href="https://317.is/magazine-style-theme/">Home</a> 
+
+<span ><a   href="https://317.is/magazine-style-theme/" >Theme</a> <span>Groucho Starter kit </span>
+
+</span>
+
+</span>
+
+</span>
+
+</div>
+
+             </div>
+
+
+
+		         <div id="go-top">
+
+		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
+
+		         </div>         
+
+	      	</div>
+
+
+
+      	</div> 
+
+      </div> <!-- end footer-bottom -->  
+
+
+
+   </footer>  
+
+
+
+   <div id="preloader"> 
+
+    	<div id="loader"></div>
+
+   </div> 
+
+
+
+   <!-- Java Script
+
+   ================================================== --> 
+
+   <script src="js/jquery-2.1.3.min.js"></script>
+
+   <script src="js/plugins.js"></script>
+
+   <script src="js/jquery.appear.js"></script>
+
+   <script src="js/main.js"></script>
+
+
+
+<script type="text/javascript">
+
+var sc_project=10083575; 
+
+var sc_invisible=1; 
+
+var sc_security="7e6370bf"; 
+
+var scJsHost = (("https:" == document.location.protocol) ?
+
+"https://secure." : "https://www.");
+
+document.write("<sc"+"ript type='text/javascript' src='" +
+
+scJsHost+
+
+"statcounter.com/counter/counter.js'></"+"script>");
+
+</script>
+
+<noscript><div class="statcounter"><a href="https://statcounter.com/free-web-stats/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/10083575/0/7e6370bf/1/" alt="milo statistics"></a></div></noscript>
+
+
 
 </body>
+
 </html>

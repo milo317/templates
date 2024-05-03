@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Flexible Shopify store theme template</title>
+
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/fontawesome/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/log.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/log.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/log.png">
+
+<style type="text/css">
+body {
+    -webkit-backface-visibility: hidden;
+    overflow-x: hidden;
+    color: #333;
+    font: normal 18px/25px calibri,"Open Sans", helvetica, arial,arial,Roboto,trebuchet ms,tahoma,verdana,sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: #fff;
+}
+.s-header.sticky,.s-hero {
+ background: #fff;
+}
+.s-header__logo img {
+  width: 168px;
+  height: auto;
+  margin-bottom: 0;
+}
+.s-header__nav-wrap {
+  padding-left: 24.6rem;
+}
+.s-hero__bg::after ,.s-hero__bg .gradient-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  opacity: .0;
+}
+.ss-go-top a,x.s-header__content,.testimonials,.s-clients,.s-portfolio,.s-services,.s-about,#preloader,.s-header.sticky,.s-hero {
+ background: #fff;
+}
+.ss-go-top a {background-color: #fff!important;}
+p,.s-header__menu-toggle,.s-footer a,.s-footer,.testimonial-slider p,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,.s-header__nav a ,.s-hero__content-about {  
+  color:#333;
+}
+a:hover,.s-footer a:hover,.s-header__nav a:hover, .s-header__nav a:focus {
+  color: #d9083c!important;
+}
+.s-hero__video-link,.s-header__menu-toggle span,.s-footer__block--end .btn:hover, .s-footer__block--end .btn:focus,#loader > div{
+  background: #d9083c!important;
+}
+.s-footer__block--end .btn:hover, .s-footer__block--end .btn:focus{
+  color: #fff!important;
+}
+.s-header__content .btn img{
+ margin:2px 4px 0 0;width:16px;
+}
+x.pswp img {
+  max-width:100%!important;width:100%!important;max-height:100vh;height:auto!important;
+}
+.s-footer p,.s-footer a {font-size:14px;}
+.s-header__nav li svg{color:#d9083c;}
+
+@media only screen and (max-width: 900px), (max-device-width: 900px) and (min-device-width: 900px){
+  .s-header__content {
+    background-color:#fff!important
+}  
+}
+</style>
+</head>
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="s-header__logo">
+            <a href="https://317.is/store-theme/">
+                <img loading="lazy" src="images/log.png" alt="Flexible Shopify store theme template">
+            </a>
+        </div>
+
+        <div class="s-header__content">
+    
+            <nav class="s-header__nav-wrap">
+                <ul class="s-header__nav">
+                    <li><a class="smoothscroll" href="#about" title="New">New in</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Damen">Damen</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Herren">Herren</a></li>
+                    <li><a class="smoothscroll" href="" title="Kinder">Kinder</a></li>
+                    <li><a href="#contact"><svg focusable="false" width="18" height="18" class="icon icon--header-search   " viewBox="0 0 18 18">
+        <path d="M12.336 12.336c2.634-2.635 2.682-6.859.106-9.435-2.576-2.576-6.8-2.528-9.435.106C.373 5.642.325 9.866 2.901 12.442c2.576 2.576 6.8 2.528 9.435-.106zm0 0L17 17" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg></a></li>
+		<li><a href="#contact"><svg focusable="false" width="18" height="17" class="icon icon--header-customer   " viewBox="0 0 18 17">
+        <circle cx="9" cy="5" r="4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></circle>
+        <path d="M1 17v0a4 4 0 014-4h8a4 4 0 014 4v0" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg></a></li>
+		<li><a href="#contact"><svg focusable="false" width="20" height="18" class="icon icon--header-cart   " viewBox="0 0 20 18">
+        <path d="M3 1h14l1 16H2L3 1z" fill="none" stroke="currentColor" stroke-width="2"></path>
+        <path d="M7 4v0a3 3 0 003 3v0a3 3 0 003-3v0" fill="none" stroke="currentColor" stroke-width="2"></path>
+      </svg><cart-count class="header__cart-count header__cart-count--floating bubble-count">0</cart-count></a></li>
+                </ul>
+            </nav> <!-- end s-header__nav-wrap -->
+
+            <a href="" class="btn btn--primary btn--small">
+          <img loading="lazy"  src="images/cart-36-24.png" alt="buy">
+                Shop now
+            </a>
+
+        </div> <!-- end header-content -->
+
+        <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+
+        <div class="s-hero__bg">
+            <div class="gradient-overlay"></div>
+        </div>
+
+        <div class="row s-hero__content">
+            <div class="column">
+
+                <h1>Hello.</h1>
+                <div class="s-hero__content-about">
+
+                    <p>
+                   Bereits seit 1891 <br>befindet sich der <br>Unternehmenssitz <br>in London.
+                    </p>
+    
+                    <footer>
+                        <div class="s-hero__content-social">
+                            <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
+                        </div>
+                    </footer>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="s-hero__video">
+            <a class="s-hero__video-link" href="https://www.youtube.com/watch?v=JPpxxeQ_Pic" data-lity="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                <span class="s-hero__video-text">Play Video</span>
+            </a>
+        </div>
+
+        <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                Scroll Down
+            </a>
+        </div>
+
+    </section> <!-- end s-hero -->
+    
+        <section id="portfolio" class="s-portfolio">
+
+        <div class="row s-porfolio__top">
+            <div class="column large-6 w-900-stack">
+                <div class="section-title" data-num="01" data-aos="fade-up">
+                    <h3 class="h6">DIE GESCHICHTE BERRYS</h3>
+                </div>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <h1 class="display-1" data-aos="fade-up">
+                  Thomas Berry gr&#252;ndet Berry im Alter von nur 21 Jahren. Er ist der &#220;berzeugung, dass Bekleidung den Menschen vor jeglichen Kapriolen des britischen Wetters optimal sch&#252;tzen sollte.
+                </h1>
+            </div>
+        </div> <!-- end s-portfolio__top-->
+
+        <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
+
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-red-wheel.jpg" title="Berry item" data-size="1500x1500">
+                            <img src="images/portfolio/red-wheel.jpg" 
+                                 srcset="images/portfolio/red-wheel.jpg 1x, images/portfolio/red-wheel@2x.jpg 2x" alt="Flexible Shopify store theme template">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Branding</div>
+                        <h4 class="folio-item__title">Berry item</h4>
+                    </div>
+                    <a href="" title="Flexible Shopify store theme template" class="folio-item__project-link">Shop item</a>
+                    <div class="folio-item__caption">
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-music-life.jpg" title="Berry item" data-size="1500x1500">
+                            <img src="images/portfolio/music-life.jpg" 
+                                 srcset="images/portfolio/music-life.jpg 1x, images/portfolio/music-life@2x.jpg 2x" alt="Flexible Shopify store theme template">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Berry item</div>
+                        <h4 class="folio-item__title">Berry item</h4>
+                    </div>
+                    <a href="" title="Flexible Shopify store theme template" class="folio-item__project-link">Shop item</a>
+                    <div class="folio-item__caption">
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-oi-logo.jpg" Title="Berry item" data-size="1500x1500">
+                            <img src="images/portfolio/oi-logo.jpg.jpg" 
+                                 srcset="images/portfolio/oi-logo.jpg 1x, images/portfolio/oi-logo@2x.jpg 2x" alt="Flexible Shopify store theme template">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Branding</div>
+                        <h4 class="folio-item__title">Berry item</h4>
+                    </div>
+                    <a href="" title="Flexible Shopify store theme template" class="folio-item__project-link">Shop item</a>
+                    <div class="folio-item__caption">
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-corrugated-sheets.jpg" title="Berry item" data-size="1500x1500">
+                            <img src="images/portfolio/corrugated-sheets.jpg" 
+                                 srcset="images/portfolio/corrugated-sheets.jpg 1x, images/portfolio/corrugated-sheets@2x.jpg 2x" alt="Flexible Shopify store theme template">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Berry item</div>
+                        <h4 class="folio-item__title">Berry item</h4>
+                    </div>
+                    <a href="" title="Flexible Shopify store theme template" class="folio-item__project-link">Shop item</a>
+                    <div class="folio-item__caption">
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg" title="Flexible Shopify store theme template" data-size="1500x1500">
+                            <img src="images/portfolio/woodcraft.jpg" 
+                                 srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="Flexible Shopify store theme template">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Berry item</div>
+                        <h4 class="folio-item__title">Berry item</h4>
+                    </div>
+                    <a href="" title="Shop item" class="folio-item__project-link">
+                        Shop item
+                    </a>
+                    <div class="folio-item__caption">
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg" title="Flexible Shopify store theme template" data-size="1500x1500">
+                            <img src="images/portfolio/lamp.jpg" 
+                                 srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="Flexible Shopify store theme template">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Berry item</div>
+                        <h4 class="folio-item__title">Berry item</h4>
+                    </div>
+                    <a href="" title="Flexible Shopify store theme template" class="folio-item__project-link">Shop item</a>
+                    <div class="folio-item__caption">
+                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+
+        </div> <!-- folio-list -->
+
+    </section> <!-- end s-portfolio -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about">
+
+        <div class="horizontal-line"></div>
+
+        <div class="row">
+            <div class="column large-12">
+
+                <div class="section-title" data-num="01" data-aos="fade-up">
+                    <h3 class="h6">Berry</h3>
+                </div>
+
+            </div>
+
+            <div class="column large-6 w-900-stack s-about__intro-text">
+                <h1 class="display-1" data-aos="fade-up">
+                    Thomas Berry entwickelt die Gabardine, ein atmungsaktives, wasserabweisendes und zugleich strapazierfaehiges Gewebe.
+                </h1>
+
+                <p class="lead" data-aos="fade-up">
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore, 
+                    tincidunt sit elit amet scelerisque. Ac quisque quis eu nibh rutrum 
+                    risus tellus egestas neque. Vestibulum ante ipsum primis in faucibus 
+                    orci luctus et. 
+                </p>
+            </div>
+
+            <div class="column large-6 w-900-stack s-about__photo-block">
+                <div class="s-about__photo" data-aos="fade-up"></div>
+            </div>
+        </div>
+
+        <div class="row block-large-1-2 block-tab-full s-about__process item-list">
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+        </div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services">
+
+        <div class="row">
+            <div class="column large-12">
+                <div class="section-title" data-num="02" data-aos="fade-up">
+                    <h3 class="h6">Berry</h3>
+                </div>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <h1 class="display-1" data-aos="fade-up">
+                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                    Quis dolores totam voluptatibus. 
+                </h1>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                Velit deleniti harum sit beatae sint repellendus expedita. Omnis possimus 
+                sed rerum tenetur ea ab aut minima magnam. Deserunt sit cupiditate 
+                similique eveniet earum. Consectetur dolores maxime quisquam voluptate magni.
+                Ut ex unde rem quod ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+        </div>
+
+        <div class="row block-large-1-2 block-tab-full s-services__services item-list">
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--product-design"></span>
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--branding"></span>
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--frontend"></span>
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--research"></span>
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--illustration"></span>
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--ecommerce"></span>
+                <h3 class="item-title">Berry</h3>
+                <p>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+        </div>
+
+    </section> <!-- end s-services -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section class="s-contact">
+
+        <div class="row narrower s-contact__top h-text-center">
+            <div class="column">
+                <h3 class="h6" style="color:#fff">Nachhaltigkeit</h3>
+                <h1 class="display-1" style="color:#fff">
+               Angetrieben von unserem Wunsch, weiter zu gehen, m&#246;chten wir eine bessere Welt schaffen<br> f&#252;r unsere Umwelt, unsere Communitys und die Menschen, die sie gestalten.
+                </h1>
+            </div>
+        </div> <!-- s-footer__top -->
+
+        <div class="row h-text-center">
+            <div class="column">
+                <p class="s-contact__email">
+                    <a href="">Kontakt</a>
+                </p>
+            </div>
+        </div>
+
+    </section>  <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row row-y-top">
+
+            <div class="column large-8 medium-12">
+                <div class="row">
+                    <div class="column large-7 tab-12 s-footer__block">
+                        <h4 class="h6">Where to Find Us</h4>
+        
+                        <p>
+                        Berry Limited, Horseferry House, <br>Horseferry Road, <br>London, SW1P 2AW
+Eingetragen in England und Wales<br>
+Handelsregisternummer: 00162636
+                        </p>
+                    </div>
+        
+                    <div class="column large-5 tab-12 s-footer__block">
+                        <h4 class="h6">Follow Us</h4>
+        
+                        <ul class="s-footer__list">
+                            <li><a href="#0">Facebook</a></li>
+                            <li><a href="#0">Twitter</a></li>
+                            <li><a href="#0">Instagram</a></li>
+                            <li><a href="#0">Dribbble</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column large-4 medium-12 s-footer__block--end">
+                <a href="mailto:#0" class="btn h-full-width">Let's Talk</a>
+
+                <div class="ss-copyright">
+                    <span>Copyright Flexible Shopify store theme template <script>document.write(new Date().getFullYear());</script> </span>                     
+                </div>
+            </div>
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    top
+                </a>
+            </div> <!-- end ss-go-top -->
+
+        </div>
+    </footer>
+    
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script defer src="js/plugins.js"></script>
+    <script defer src="js/main.js"></script>
+
+   
+<script type="text/javascript">
+var sc_project=10083575; 
+var sc_invisible=1; 
+var sc_security="7e6370bf"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "https://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a href="https://statcounter.com/free-web-stats/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/10083575/0/7e6370bf/1/" alt="milo statistics"></a></div></noscript>
+
+    
+
+</body>
+</html>
