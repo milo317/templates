@@ -5,7 +5,7 @@
 <link rel="preload" as="style" href="style.css" />
 <link rel="preload" as="script" href="js/jquery.min.js" />
 <link rel="preload" as="image" href="images/s1.webp">
-<link rel="preload" as="image" href="images/favicon.ico"> 
+<link rel="preload" as="image" href="/images/favicon.ico"> 
 <link rel="stylesheet" href="style.css" type="text/css" title="default" media="screen" />
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -342,7 +342,46 @@ h4 {
 .hbigdate {   display:none!important;}
 #steaser .rap span {height: 120px;}
 
+.block{display:block;clear:both;width:100%;height:auto;min-height:100px;}
+.block.b1{border-bottom:2px solid #ccc;position:relative;
+border-top:2px solid #ccc;
+width:100%;min-height:140px;display:block;margin:0;padding:30px 0 30px 0;}
+
+.block.tt{border-bottom:2px solid #ccc;clear:both;
+border-top:2px solid #ccc;display:block;margin:50px auto 0;padding:30px 0 30px 0;}
+.block.ts{border-bottom:2px solid #ccc;
+display:block;margin:20px auto;padding:20px 0 30px 0;}
+
+.block #teaser .sentry p:first-of-type::first-letter {
+    float:none;
+    font:100 16px / 24px arial, helvetica, 'open sans';
+    letter-spacing: 0px;
+    color: #333;
+    margin: -0;
+    padding: 0;
+    clear: none;
+    display: inline-block;
+}
+
+.block #head h1 {    padding: 5px 0 10px 0 !important;font: 400 78px / 90% Gloock, 'times new roman', georgia, Serif;}
+
+.block .florida span,.block .orlando span
+{min-width:24px;display:block;float:left;
+padding:0 10px 0 0;font: 100 16px / 70% Gloock, 'times new roman', georgia, baskerville, serif;color:#666;}
+.block h4 span {min-width:24px;display:block;float:left;
+padding:10px 10px 0 0;font: 100 16px / 50% Gloock, 'times new roman', georgia, baskerville, serif;color:#666;}
+
+.block .the {top:25px;left: 50%;}
+
+.block #teaser .wrap{background: transparent;padding:0;}
+.block.b1 #head {background: transparent;}
+.l1{display:block;float:left;width:29%;}
+.l2{display:block;float:right;width:70%;}
+.block #lbar,.block #lrbar { min-height: 120px !important;}
+.block #middle p,.block #lbar p {   padding: 2px 0 16px 0;    margin: 0;    color: #333;}
+
 @media only screen and (max-width: 850px), (max-device-width: 850px) and (min-device-width: 850px){
+.l1,.l2{display:block;float:none;width:100%;margin:0;}    
 .the{left:45%;}  
 .sun {    letter-spacing: -9px;}
 #teaser h2 a, #steaser h2 a {font-size:42px;}
@@ -360,6 +399,11 @@ ul#pnav {display:none;}
     font: 400 52px/90% Gloock,'times new roman',georgia,Serif;
     letter-spacing: -6px;
 }
+.block #head h1 {    padding: 5px 0 10px 0 !important;font: 400 48px / 90% Gloock, 'times new roman', georgia, Serif;}
+.block.b1 {padding: 30px 0 0px 0;    min-height: 120px;}
+.block.b1 #head {   height: 100px;}
+.block .orlando,.block .florida {margin: 5px 0 0px 0;padding: 5px 0 0 0;height: 20px;  }
+
 .rap .hc,.ones .col5,.ones .col6, .ones .col7{display:none;}
 #steaser .rap h2 ,#steaser .rap h2 a {
     padding: 0!important;margin:-4px 0 0 0;
@@ -787,25 +831,25 @@ Sed ut perspiciatis unde omnis iste natus error sit...</div>
     
 <div class="col4">
 <div class="orlando">John Carter from Mars</div>
-<img src="https://317.is/projects/NewYorker/images/favicon.ico" alt="John Carter from Mars" loading="lazy" />
+<img src="https://317.is/theme/NewYorker/images/favicon.ico" alt="John Carter from Mars" loading="lazy" />
 <h4><a href="https://317.is/new-yorker-magazine-theme/" >The Dawn of the Power Couple</a></h4>
 </div>
 
 <div class="col5">
 <div class="orlando">Snake Plissken</div>
-<img src="https://317.is/projects/NewYorker/images/favicon.ico" alt="John Carter from Mars" loading="lazy" />
+<img src="https://317.is/theme/NewYorker/images/favicon.ico" alt="John Carter from Mars" loading="lazy" />
 <h4><a href="https://317.is/new-yorker-magazine-theme/" >How to Build a Better Speaker</a></h4>
 </div>
 
 <div class="col6">
 <div class="orlando">Sergeant Calhoun</div>
-<img src="https://317.is/projects/NewYorker/images/favicon.ico" alt="John Carter from Mars" loading="lazy" />
+<img src="https://317.is/theme/NewYorker/images/favicon.ico" alt="John Carter from Mars" loading="lazy" />
 <h4><a href="https://317.is/new-yorker-magazine-theme/" >The Year in Moviegoing</a></h4>
 </div>
 
 <div class="col7">
 <div class="orlando">Jack Torrance</div>
-<img src="https://317.is/projects/NewYorker/images/favicon.ico" alt="John Carter from Mars" loading="lazy" />
+<img src="https://317.is/theme/NewYorker/images/favicon.ico" alt="John Carter from Mars" loading="lazy" />
 <h4><a href="https://317.is/new-yorker-magazine-theme/" >The Year Picasso Haunted Us</a></h4>
 </div>
 </div>
@@ -1404,6 +1448,160 @@ Sed ut perspiciatis unde omnis iste natus error sit...</div>
 
 
 
+
+
+
+
+
+<div class="block b1">
+
+<div id="head">
+<span class="the">the</span>
+<h1><span>New</span> Yorker</h1>
+<span id="datetimes" style="color:#666;font: 100 16px 'Cormorant Unicase', times new roman, georgia, baskerville, serif;margin:-12px auto 0;display:block;text-align:center"></span>
+<script>
+var dt = new Date();
+document.getElementById("datetimes").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
+<div class="tr"></div>
+</div>
+
+
+</div>
+
+<div class="block">
+
+<div class="l1">
+<h4><span>6</span> Nam libero tempore</h4>
+<h4><span>*</span> Nam libero tempore</h4>
+</div>
+<div class="l2">
+<h4><span>22</span> Nam libero tempore</h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+
+</div>
+
+<div class="block">
+
+<div id="middle">
+<div class="sl"></div>
+
+<div class="florida"><span>6</span> De finibus bonorum</div>
+<div class="entry">
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+<div class="hc">{ <em>12.12.<script>document.write(new Date().getFullYear());</script> |  Sed perspiciatis</em> }</div>
+</div>
+
+<div id="lbar">
+<div class="sl"></div>
+<div class="orlando"><span>22</span> De finibus bonorum</div>
+<div class="entry">
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+<div class="hc">{ <em>12.12.<script>document.write(new Date().getFullYear());</script> |  Sed perspiciatis</em> }</div>
+</div>
+
+<div id="lbar">
+<div class="sl"></div>
+<div class="orlando"><span>16</span> De finibus bonorum</div>
+<div class="entry">
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >Nam libero tempore</a></h4>
+<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
+</div>
+<div class="hc">{ <em>12.12.<script>document.write(new Date().getFullYear());</script> |  Sed perspiciatis</em> }</div>
+</div>
+
+</div>
+
+<div class="block tt">
+<div id="teaser">
+
+<div class="wrap animated fadeInLeftBig">
+<div class="hcx" style="margin:0 auto;text-align:center;color:#111;">{ <em>12.12.<script>document.write(new Date().getFullYear());</script> |  Sed perspiciatis</em> }</div>    
+<h2><a href="https://317.is/new-yorker-magazine-theme/" >Sed ut perspiciatis unde omnis</a></h2>
+
+<div class="msentry" style="padding:10px 0 15px 0;margin:0 auto 15px;text-align:center;"><b>De finibus bonorum</b> 
+Sed ut perspiciatis unde omnis iste natus error sit...</div>
+<div class="hcx" style="margin:0 auto;text-align:center;color:#111;">{ by  Sed perspiciatis }</div>   
+</div>
+
+</div>
+</div>
+
+<div class="block ts">
+<div id="teaser">
+
+<div class="wrap animated fadeInLeftBig">
+<div class="hcx" style="margin:0 auto;text-align:center;color:#111;">{ <em>12.12.<script>document.write(new Date().getFullYear());</script> |  Sed perspiciatis</em> }</div>    
+<h2><a href="https://317.is/new-yorker-magazine-theme/" >Temporibus autem quibusdam</a></h2>
+
+<div class="msentry" style="padding:10px 0 15px 0;margin:0 auto 15px;text-align:center;"><b>De finibus bonorum</b> 
+Sed ut perspiciatis unde omnis iste natus error sit...</div>
+<div class="hcx" style="margin:0 auto;text-align:center;color:#111;">{ by  Sed perspiciatis }</div>    
+</div>
+
+</div>
+</div>
+
+<div class="block">
+<div class="ones animated fadeInLeftBig">
+    
+<h2 style="font-size:24px;letter-spacing:0;margin:10px auto 0;text-align:center;display:block;">The critics</h2>
+    
+<div class="col4">
+		        
+<div class="orlando"><span>16</span> Sed ut perspiciatis</div>
+
+<h4><a href="" >The Dawn of the Power Couple</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>12.12.<script>document.write(new Date().getFullYear());</script> |  Sed perspiciatis</em> }</div>
+
+</div>
+
+<div class="col5">
+		        
+<div class="orlando"><span>16</span> Sed ut perspiciatis</div>
+
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >How to Build a Better Speaker</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>12.12.<script>document.write(new Date().getFullYear());</script> |  Sed perspiciatis</em> }</div>
+
+</div>
+
+<div class="col6">
+<div class="orlando"><span>16</span> Consetetur sadipscing elitr </div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >The Year in Moviegoing</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>12.12.<script>document.write(new Date().getFullYear());</script> |  Sed perspiciatis</em> }</div>
+</div>
+
+<div class="col7">
+<div class="orlando"><span>16</span> Sed ut perspiciatis </div>
+<h4><a href="https://317.is/new-yorker-magazine-theme/" >The Year Picasso Haunted Us</a></h4>
+<div class="entry">
+<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius</p>
+</div>
+<div class="hc">{ <em>12.12.<script>document.write(new Date().getFullYear());</script> |  Sed perspiciatis</em> }</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
 </div>
 </div>
 
@@ -1700,7 +1898,6 @@ Copyright &copy; <script>document.write(new Date().getFullYear());</script> NewY
 <script type="text/javascript">
 var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img alt="up" src="images/nav.webp" style="filter:alpha(opacity=70); -moz-opacity:0.7;" width="72" height="72" />',controlattrs:{offsetx:0,offsety:40},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var a=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);a="string"==typeof a&&1==jQuery("#"+a).length?jQuery("#"+a).offset().top:0,this.$body.animate({scrollTop:a},this.setting.scrollduration)},keepfixed:function(){var a=jQuery(window),b=a.scrollLeft()+a.width()-this.$control.width()-this.controlattrs.offsetx,c=a.scrollTop()+a.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:b+"px",top:c+"px"})},togglecontrol:function(){var a=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=a>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(a){var b=scrolltotop,c=document.all;b.cssfixedsupport=!c||c&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,b.$body=a(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),b.$control=a('<div id="topcontrol">'+b.controlHTML+"</div>").css({position:b.cssfixedsupport?"fixed":"absolute",bottom:b.controlattrs.offsety,right:b.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"back to top"}).click(function(){return b.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=b.$control.text()&&b.$control.css({width:b.$control.width()}),b.togglecontrol(),a('a[href="'+b.anchorkeyword+'"]').click(function(){return b.scrollup(),!1}),a(window).bind("scroll resize",function(){b.togglecontrol()})})}};scrolltotop.init();
 </script>
-
 
 
 
