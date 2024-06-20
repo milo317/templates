@@ -1,0 +1,36 @@
+
+body.wp-admin [class^="dsidx-"], body.wp-admin [class*=" dsidx-"] {
+	font-family: 'dsidx-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body.wp-admin .dsidx-search:before {
+	content: "\e603";
+}
+
+body.wp-admin .dsidx-link:before {
+	content: "\e600";
+}
+
+body.wp-admin .dsidx-listing:before {
+	content: "\e601";
+}
+
+body.wp-admin .dsidx-listings:before {
+	content: "\e602";
+}
+
+body.wp-admin #toplevel_page_dsidxpress .wp-menu-image img{
+  height: 20px;
+  padding: 7px 0 0;
+  width: 20px;
+}
